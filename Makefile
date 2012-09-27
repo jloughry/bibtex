@@ -8,3 +8,12 @@ target:
 vi:
 	vi $(source)
 
+notes:
+	(cd ../notes/ && make notes)
+
+quotes:
+	(cd ../notes/ && make notes)
+
+diss:
+	(cd ../dissertation/ && make vi)
+
