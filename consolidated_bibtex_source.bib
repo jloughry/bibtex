@@ -19,6 +19,66 @@
 % Note: if you get errors, try "make clean" first.
 %
 
+@book{Chesterton1990,
+	author = {Gilbert Keith Chesterton},
+	title = {The Collected Works of {G.K.~Chesterton}},
+	volume = {III},
+	year = 1990,
+	publisher = {Ignatius Press},
+	address = {San Francisco},
+	isbn = {0-89870-311-5},
+}
+
+@book{Grant2013,
+	author = {Rebecca Grant},
+	title = {{B-2}: The Spirit of Innovation},
+	publisher = {Northrup Grumman},
+	year = 2013,
+	note = {Air Force No Objection, 88ABW-2013-2250, 9 May 2013; NGAS 13-0405},
+	abstract = {Note the text on page 102 of the PDF file; it is `\emph{nihil obstat}'!},
+}
+
+@inproceedings{Zhou2012,
+	title = {Building verifiable trusted path on commodity x86 computers},
+	author = {Zongwei Zhou and Virgil D.~Gligor and James Newsome and Jonathan M.~McCune},
+	booktitle = {33rd IEEE Symposium on Security and Privacy},
+	address = {San Francisco, California},
+	month = {20--3 May},
+	pages = {616--630},
+	year = 2012,
+	organization = {IEEE},
+	abstract = {A \emph{trusted path} is a protected channel that assures the secrecy and \
+		authenticity of data transfers between a user's input/output (I/O) device and a \
+		program trusted by that user. We argue that, despite its incontestable necessity, \
+		current commodity systems do not support trusted path with any significant assurance. \
+		This paper presents a hypervisor-based design that enables a trusted path to bypass \
+		an untrusted operating-system, applications, and I/O devices, with a minimal Trusted \
+		Computing Base (TCB).  We also suggest concrete I/O architectural changes that will \
+		simplify future trusted-path system design. Our system enables users to verify the \
+		states and configurations of one or more trusted-paths using a simple, secret-less, \
+		hand-held device. We implement a simple user-oriented trusted path as a case study.},
+}
+
+@inproceedings{Bangert2013,
+	author = {Julian Bangert and Sergey Bratus and Rebecca Shapiro and Sean W.~Smith},
+	title = {The Page-Fault Weird Machine: Lessons in Instruction-less Computation},
+	booktitle = {7th {USENIX} Workshop on Offensive Technologies ({WOOT}'13)},
+	address = {Washington, D.C.},
+	year = 2013,
+	month = {13th August},
+	abstract = {Trust Analysis, i.e.\ determining that a system will not execute some class \
+	of computations, typically assumes that all computation is captured by an instruction \
+	trace. We show that powerful computation on x86 processors is possible without executing \
+	any CPU instructions. We demonstrate a Turing-complete execution environment driven \
+	solely by the IA32 architecture's interrupt handling and memory translation tables, in \
+	which the processor is trapped in a series of page faults and double faults, without ever \
+	successfully dispatching any instructions. The ``hard-wired'' logic of handling these \
+	faults is used to perform arithmetic and logic primitives, as well as memory reads and \
+	writes. This mechanism can also perform branches and loops if the memory is set up and \
+	mapped just right. We discuss the lessons of this execution model for future trustworthy \
+	architectures.},
+}
+
 @article{Mickens2013,
 	author = {James Mickens},
 	title = {The Slow Winter},
@@ -1765,11 +1825,12 @@
 	month = {10--12 October},
 }
 
-@book{Niven1982,
+@book{Niven1981,
 	author = {Larry Niven and Jerry Pournelle},
 	title = {Oath of Fealty},
 	publisher = {Pocket Books},
-	year = 1982,
+	year = 1981,
+	isbn = {0-671-82802-9},
 }
 
 @book{Hackett1979,
