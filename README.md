@@ -10,6 +10,6 @@ necessary bits.
 
 ### Changes
 Edit the single version here.  The latest will be copied from here by whatever
-LaTeX file needs it, when it is needed.  The cannonical version is maintained
+LaTeX file needs it, when it is needed.  The canonical version is maintained
 here under version control.
 
