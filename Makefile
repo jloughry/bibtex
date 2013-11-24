@@ -1,35 +1,21 @@
 target = consolidated_bibtex_file
 
 source = consolidated_bibtex_source.bib
-documentation = README.md
-
-EDIT = vi
 
 .PHONY: commit vi spell readme notes quotes diss
 
-#
-# Note: make requires that we set the value of a variable OUTSIDE any rules.
-#
-
-timestamp = `date +%Y%m%d.%H%M`
+include ../Makefiles/git1.mk
 
 target:
 	@echo "This is the source of the Consolidated BibTeX file.  Make changes here."
 
-commit:
-	git add .
-	git commit -am "commit from Makefile $(timestamp)"
-	make sync
+include ../Makefiles/git2.mk
 
-sync:
-	git pull --rebase
-	git push
+clean:
+	@echo "\"make clean\" doesn't do anything here."
 
 vi:
-	$(EDIT) $(source)
-
-readme:
-	$(EDIT) $(documentation)
+	vi $(source)
 
 spell:
 	aspell --lang=en check $(documentation)
