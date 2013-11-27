@@ -9,6 +9,7 @@ source form I need to send it with a cut-down BibTeX file containing only the
 necessary bits.
 
 ### Changes
+
 Edit the single version here.  The latest will be copied from here by whatever
 LaTeX file needs it, when it is needed.  The canonical version is maintained
 here under version control.
