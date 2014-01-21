@@ -1,1 +1,3 @@
-test from the new thesis directory
+all local copies of consolidated_bibtex_file.bib are now symlinked
+to consolidated_bibtex_source.bib here. This makes for a risk of
+accidentally deleting this file, so commit it after every change.
