@@ -1,1 +1,1 @@
-added new references
+routine commit of BibTeX file with new references
