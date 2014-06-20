@@ -1,1 +1,1 @@
-add new references (DO-178/C etc.)
+added new references
