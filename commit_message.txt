@@ -1,1 +1,1 @@
-added new references
+remove backslash continuation character from long titles
