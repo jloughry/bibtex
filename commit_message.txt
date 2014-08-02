@@ -1,1 +1,1 @@
-remove backslash continuation character from long titles
+remove backslash continuation characters from author lists
