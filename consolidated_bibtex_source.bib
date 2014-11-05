@@ -12,6 +12,49 @@
 % Note: if you get errors, try "make clean" first.
 %
 
+@inproceedings{Emms2014,
+	title = {Harvesting High Value Foreign Currency Transactions from {EMV}
+		Contactless Credit Cards without the {PIN}},
+	author = {Martin Emms and Budi Arief and Leo Freitas and Joseph Hannon
+		and Aad {van Moorsel}},
+	booktitle = {ACM CCS'14},
+	address = {Scottsdale, AZ},
+	month = {November 3--7,},
+	year = 2014,
+	abstract = {In this paper we present an attack, which allows fraudulent
+		transactions to be collected from EMV contactless credit and debit
+		cards without the knowledge of the cardholder. The attack exploits
+		a previously unreported vulnerability in EMV protocol, which allows
+		EMV contactless cards to approve unlimited value transactions
+		without the cardholder's PIN when the transaction is carried out in
+		a foreign currency. For example, we have found that Visa credit
+		cards will approve foreign currency transactions for any amount up
+		to \EUR{999,999.99} with out the cardholder's PIN, this side-steps
+		\pounds 20 contactless transaction limit in the UK. This paper
+		outlines our analysis methodology that identified the flaw in the
+		EMV protocol, and presents a scenario in which fraudulent
+		transaction details are transmitted over the Internet to a rogue
+		merchant who then uses the transaction data to take money from the
+		victim's account. In reality, the criminals would choose a value
+		between \EUR{100} and \EUR{200}, which is low enough to be within
+		the victim's balance and not to raise suspicion, but high enough to
+		make each attack worthwhile. The attack is novel in that it could
+		be operated on a large scale with multiple attackers collecting
+		fraudulent transactions for a central rogue merchant which can be
+		located anywhere in the world where EMV payments are accepted.},
+}
+
+@inproceedings{Ray2014,
+	author = {Baishakhi Ray and Daryl Posnett and Vladimir Filkov
+		and Premkumar T Devanbu},
+	title = {A Large Scale Study of Programming Languages and Code Quality
+		in {Github}},
+	booktitle = {FSE'14},
+	address = {Hong Kong, China},
+	year = 2014,
+	month = {November 16--22,},
+}
+
 @article{Tuite2014,
 	author = {Don Tuite},
 	title = {Power Semiconductor Makers Target New Products
