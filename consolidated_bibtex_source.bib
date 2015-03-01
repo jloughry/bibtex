@@ -12,6 +12,180 @@
 % Note: if you get errors, try "make clean" first.
 %
 
+@inproceedings{Slamanig2010a,
+    title = {Generalizations and Extensions of Redactable Signatures with
+        Applications to Electronic Healthcare},
+    author = {Daniel Slamanig and Stefan Rass},
+    booktitle = {11th {IFIP TC 6/TC 11} International Conference, {CMS
+        2010}},
+    address = {Linz, Austria},
+    month = {May 31,},
+    year = 2010,
+    doi = {10.1007/978-3-642-13241-4_19},
+    pages = {201--213},
+    abstract = {Redactable signatures allow for altering signed documents,
+        retaining the validity of the signature without interaction with
+        the original signer. In their plain form, such schemes are designed
+        for documents having an unspecific structure, i.e.\ documents are
+        simply considered as binary strings. In this work, we generalize
+        the concept of redactable signatures towards documents that
+        inherently provide a structure and investigate the security of our
+        construction. Furthermore, we present extensions to our scheme,
+        adding features not commonly provided by other redactable signature
+        schemes. Additionally, various applications in healthcare are
+        discussed, supporting the applicability and usability of our
+        construction.},
+    publisher = {LNCS 6109},
+}
+
+@inproceedings{Ateniese2005a,
+    title = {Sanitizable Signatures},
+    author = {Giuseppe Ateniese and Daniel H.~Chou and Breno {de Medeiros}
+        and Gene Tsudik},
+    booktitle = {10th European Symposium on Research in Computer Security},
+    address = {Milan, Italy},
+    month = {September 12--14},
+    doi = {10.1007/11555827_10},
+    abstract = {We introduce the notion of \emph{sanitizable signatures}
+        that offer many attractive security features for certain
+        current and emerging applications. A sanitizable signature
+        allows authorized semi-trusted censors to modifyn a limited and
+        controlled fashion   rts of a signed message without interacting
+        with the original signer. We present constructions for this new
+        primitive, based on standard signature schemes and secure under
+        common cryptographic assumptions. We also provide experimental
+        measurements for the implementation of a sanitizable signature
+        scheme and demonstrate its practicality.},
+    publisher = {LNCS 3679},
+    pages = {159--177},
+    year = 2005,
+}
+
+@inproceedings{deMeer2014a,
+    author = {Hermann {de Meer} and Henrich C.~{P\"{o}hls} and
+        Joachim Posegga and Kai Samelin},
+    title = {On the Relation between Redactable and Sanitizable Signature
+        Schemes},
+    booktitle = {6th International Symposium on Engineering Secure Software
+        and Systems},
+    publisher = {LNCS 8364},
+    year = 2014,
+    pages = {113--130},
+    doi = {10.1007/978-3-319-04897-0_8},
+    abstract = {Malleable signature schemes ($\mathcal{MSS}$)
+        enable a third party to alter signed data in a controlled way,
+        maintaining a valid signature after an authorized change. Most
+        well studied cryptographic constructions are (1) redactable
+        signatures ($\mathcal{RSS}$), and (2) sanitizable signatures
+        ($\mathcal{SSS}$). $\mathcal{RSS}$s allow the removal of
+        blocks from a signed document, while $\mathcal{SSS}$s allow
+        changing blocks to arbitrary strings. We rigorously prove that
+        $\mathcal{RSS}$s are less expressive than $\mathcal{SSS}$s:
+        no unforgeable $\mathcal{RSS}$ can be transformed into an
+        $\mathcal{SSS}$. For the opposite direction we give a black-box
+        transformation of a single $\mathcal{SSS}$, with tightened
+        security, into an $\mathcal{RSS}$.},
+    month = {26--28 February},
+    address = {Munich, Germany},
+}
+
+@inproceedings{Samelin2012a,
+    title = {Redactable Signatures for Independent Removal of Structure and
+        Content},
+    author = {Kai Samelin and Henrich C.~{P\"{o}hls} and Arne Bilzhause and
+        Joachim Posegga and Hermann {de Meer}},
+    booktitle = {8th International Conference on Information Security
+        Practice and Experience},
+    year = 2012,
+    pages = {17--33},
+    month = {9--12 April},
+    address = {Hangzhou, China},
+    publisher = {LNCS 7232},
+    abstract = {In this paper, we present a provably secure redactable
+        signature scheme allowing to independently redact structure and
+        content. We identify the problems when structure is not separated
+        from content, resulting in an attack on the scheme proposed at
+        VLDB '08 by \emph{Kundu} and \emph{Bertino}. The attack allows
+        for changing the semantic meaning of a given tree. We introduce
+        a rigid security model, including consecutive redaction control,
+        to formalize the required behaviour of our scheme. Moreover, we
+        present first performance evaluations of our implementation to
+        demonstrate the practical use of the presented scheme.},
+    doi = {10.1007/978-3-642-29101-2_2},
+}
+
+@inproceedings{Pohls2014b,
+    author = {Henrich C.~{P\"{o}hls} and Kai Samelin},
+    title = {On Updatable Redactable Signatures},
+    booktitle = {12th International Conference on Applied Cryptography and
+        Network Security},
+    address = {Lausanne, Switzerland},
+    month = {10--13 June},
+    year = 2014,
+    pages = {457--475},
+    publisher = {LNCS 8479},
+    doi = {10.1007/978-3-319-07536-5_27},
+    abstract = {Redactable signatures allow removing parts from
+        signed documents. State-of-the-art security models do not capture
+        the possibility that the signer can update signatures, i.e.,
+        add new elements. Neglecting this, third parties can generate
+        forgeries. Moreover, there are constructions which permit
+        creating a signature by merging two redacted messages, if they
+        stem from the same original. Our adjusted definition captures both
+        possibilities. We present a provably secure construction in the
+        standard model, which makes use of a novel trapdoor-accumulator.},
+}
+
+@inproceedings{Pohls2014a,
+    author = {Henrich C.~{P\"{o}hls} and Markus Karwe},
+    title = {Redactable Signatures to Control the Maximum Noise for
+        Differential Privacy in the Smart Grid},
+    booktitle = {Second International Workshop on Smart Grid Security},
+    year = 2014,
+    month = {February 26,},
+    address = {Munich, Germany},
+    pages = {79--93},
+    publisher = {Lecture Notes in Computer Science 8448},
+    abstract = {The Smart Grid is current developed and fundamental
+        security requirements like integrity and origin authentication need
+        to be addressed while minimizing arising privacy issues. This paper
+        balances two opposing goals: On the one hand, we mitigate privacy
+        issues raised by overly precise energy consumption values via data
+        perturbation mechanisms, e.g., add noise. On the other hand we
+        limit the noise's range and keep a verifiable level of integrity of
+        consumption values from the Smart Metering Gateway by using a
+        redactable signature. We propose to use the value obtained by
+        calculating the worst case guarantee of differential privacy as a
+        metric to compare and judge a Smart Grid application's privacy
+        invasiveness.},
+    doi = {DOI: 10.1007/978-3-319-10329-7_6}
+}
+
+@article{Long2015a,
+    author = {Dave Long},
+    title = {{META II}: Digital Vellum in the Digital Scriptorum},
+    journal = {Comm.\ ACM},
+    month = {March},
+    year = 2015,
+    volume = 58,
+    number = 3,
+    pages = {43--48},
+    abstract = {The author retraces the steps of Schorre's 1962 paper on a
+        compiler-compiler, hand compiling the syntax productions into
+        a Python programme just as the author did into machine language in
+        1962 on an IBM 1401.},
+    doi = {DOI:10.1145/2697401},
+}
+
+@misc{Michalevsky2015,
+    author = {Yan Michalevsky and Dan Boneh and Aaron Schulman
+        and Gabi Nakibly},
+    title = {{PowerSpy}: Location Tracking using Mobile Device Power Analysis},
+    howpublished = {\url{http://arxiv.org/pdf/1502.03182v1.pdf}},
+    year = 2015,
+    month = {11th February},
+}
+
 @article{Maner1996,
     author = {Walter Maner},
     title = {Unique Ethical Problems in Information Technology},
