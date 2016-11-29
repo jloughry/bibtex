@@ -10,7 +10,7 @@ $(target):
 	@echo "This is the source of the Consolidated BibTeX file.  Make changes here."
 
 vi:
-	$(editor_cmd) $(source) && echo "OK" || echo "return code from vi was $$?"
+	@$(editor_cmd) $(source) && echo "OK" || echo "return code from vi was $$?"
 
 include common.mk
 
