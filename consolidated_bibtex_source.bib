@@ -12,6 +12,27 @@
 % Note: if you get errors, try "make clean" first.
 %
 
+@techreport{Bernstein2017a,
+    author = {Daniel J.~Bernstein and {Jean-Fran\c{c}ois} Biasse
+        and Michele Mosca},
+    title = {A low-resource quantum factoring algorithm},
+    institution = {International Association for Cryptologic Research},
+    type = {e-print},
+    number = {2017-352},
+    year = 2017,
+    abstract = {In this paper, we present a factoring algorithm that,
+        assuming standard heuristics, uses just
+        $(\log N)^{\sfrac{2}{3}+o(1)}$ qubits to factor an integer $N$ in
+        time $L^{q+o(1)}$ where
+        $L = exp((\log N)^{\sfrac{1}{3}} (\log \log N)^{\sfrac{2}{3}})$
+        and $q = \sqrt[3]{\sfrac{8}{3}} \approx 1.387.$ For comparison, the
+        lowest asymptotic time complexity for known pre-quantum factoring
+        algorithms, assuming standard heuristics, is $L^{p+o(1)}$ where
+        $p > 1.9$. The new time complexity is asymptotically worse than
+        Shor's algorithm, but the qubit requirements are asymptotically
+        better, so it may be possible to physically implement it sooner.},
+}
+
 @article{Nelson1963a,
     author = {Ray Nelson},
     title = {Eight O'Clock in the Morning},
