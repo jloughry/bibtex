@@ -7,7 +7,8 @@ editor_cmd = /usr/bin/vi
 all:: $(target)
 
 $(target):
-	@echo "This is the source of the Consolidated BibTeX file.  Make changes here."
+	@echo "This is the source of the Consolidated BibTeX file. Make changes here."
+	@echo "There is nothing to make here."
 
 vi:
 	@$(editor_cmd) $(source) && echo "OK" || echo "return code from vi was $$?"
