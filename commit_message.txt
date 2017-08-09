@@ -1,1 +1,1 @@
-testing git add LICENSE.txt Makefile README.md commit_message.txt common.mk consolidated_bibtex_file.bib consolidated_bibtex_source.bib get_commit_message.sh save instead of git add -A
+added new references
