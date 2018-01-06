@@ -12,6 +12,35 @@
 % Note: if you get errors, try "make clean" first.
 %
 
+@inproceedings{Sullivan2017,
+    author = {Gregory T.~Sullivan and Andr\'{e} DeHon and Steven Milburn
+        and Eli Boling and Marco Ciaffi and Jothy Rosenberg
+        and Andrew Sutherland},
+    title = {The Dover inherently secure processor},
+    booktitle = {IEEE International Symposium on Technologies for Homeland
+        Security ({HST})},
+    year = 2017,
+    pages = {1--5},
+    doi = {10.1109/THS.2017.7943502},
+    address = {Waltham, Massachusetts},
+    month = {25--26 April},
+    abstract = {The Dover inherently secure processor being developed at
+        Draper extends a conventional CPU (we use an open-source RISC-V
+        implementation) with a Policy EXecution coprocessor (PEX). The PEX
+        maintains metadata at the granularity of every word accessible by
+        the application processor (AP), including registers, and the PEX
+        enforces software-defined policies at the granularity of each
+        instruction executed by the AP CPU. Hardware interlocks enforce
+        strict separation between user-land code \& data and policy-related
+        code \& data. Dover achieves high performance by using caches for
+        acceptable combinations of instructions and associated metadata.
+        Dover maintains flexibility with respect to the host AP CPU by
+        imposing minimal changes to the AP CPU. A Dover system, in
+        conjunction with a Dover-specialized kernel and modifications tor
+        the GCC toolchain, can implement a wide range of security and
+        safety policies on top of existing C-based applications.},
+}
+
 @article{Bonta2017,
     author = {Mark Bonta and Robert Gosford and Dick Eussen
         and Nathan Ferguson and Erana Loveless and Maxwell Witwer},
