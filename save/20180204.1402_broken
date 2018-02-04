@@ -24,8 +24,7 @@
 }
 
 @article{Bal-Tec2018a,
-    author = {{Bal-Tec} Division},
-    note = {\URL{www.precisionballs.com}},
+    author = {{Bal-Tec} Division \URL{www.precisionballs.com}},
     title = {Ball Bar-Dumbell},
     pages = 138,
     month = {January},
@@ -34,6 +33,55 @@
     volume = 90,
     number = 8,
 }
+
+@misc{England2014,
+    author = {Liz England},
+    title = {``The Door Problem''},
+    year = 2014,
+    month = {21st April},
+    howpublished = {Liz England's blog
+        \URL{http://www.lizengland.com/blog/2014/04/the-door-problem/}},
+}
+
+@misc{Yudkowsky2008b,
+    author = {Eliezer Yudkowsky},
+    title = {The Level Above Mine},
+    year = 2008,
+    month = {26 September},
+    howpublished = {\emph{LessWrong} blog
+        \URL{http://lesswrong.com/lw/ua/the_level_above_mine/}},
+}
+
+@misc{Yudkowsky2008c,
+    author = {Eliezer Yudkowsky},
+    title = {Competent Elites},
+    year = 2008,
+    month = {27 September},
+    howpublished = {\emph{LessWrong} blog
+        \URL{http://lesswrong.com/lw/ub/competent_elites/}},
+}
+
+@manual{EnhancedVision2017,
+    title = {{Transformer HD} User Manual},
+    year = 2017,
+    organization = {Enhanced Vision},
+    month = {January},
+    address = {\URL{www.enhancedvision.com}},
+}
+
+@misc{Haas2016,
+    author = {Niklas Haas},
+    title = {Falsehoods programmers believe about [video stuff]},
+    year = 2016,
+    month = {25th December},
+    howpublished = {The \emph{Nothing to see here} blog
+        \URL{https://haasn.xyz/posts/2016-12-25-falsehoods-programmers-believe-about-[video-stuff].html}},
+}
+
+@techreport{Baird2017a,
+    author = {Leemon Baird},
+    title = {The {Swirlds} Hashgraph Consensus Algorithm: Fair, Fast,
+        {Byzantine} Fault Tolerance},
 
 @misc{DeNooyer2018a,
     author = {DeNooyer, Rushmore},
