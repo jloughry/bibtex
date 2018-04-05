@@ -14,6 +14,63 @@
 % TODO: begin entering author names here as Last, First instead.
 %
 
+@techreport{Horel2018a,
+    author = {Thibaut Horel and Sunoo Park and Silas Richelson
+        and Vinod Vaikuntanathan},
+    title = {How to Subvert Backdoored Encryption: Security Against
+        Adversaries that Decrypt All Ciphertexts},
+    year = 2018,
+    month = {20 February},
+    institution = {International Association for Cryptologic Research},
+    type = {Cryptology ePrint Archive: Report},
+    number = {2018/212},
+    abstract = {In this work, we examine the feasibility of secure and
+        undetectable point-to-point communication in a world where
+        governments can read all the encrypted communications of their
+        citizens. We consider a world where the only permitted method of
+        communication is via a government-mandated encryption scheme,
+        instantiated with government-mandated keys. Parties cannot simply
+        encrypt ciphertexts of some other encryption scheme, because citizens
+        caught trying to communicate outside the government's knowledge
+        (e.g., by encrypting strings which do not appear to be natural
+        language plaintexts) will be arrested. The one guarantee we suppose
+        is that the government mandates an encryption scheme which is
+        semantically secure against outsiders: a perhaps reasonable
+        supposition when a government might consider it advantageous to
+        secure its people's communication against foreign entities. But then,
+        what good is semantic security against an adversary that holds all
+        the keys and has the power to decrypt?
+
+        We show that even in the pessimistic scenario described, citizens can
+        communicate securely and undetectably. In our terminology, this
+        translates to a positive statement: all semantically secure
+        encryption schemes support subliminal communication. Informally, this
+        means that there is a two-party protocol between Alice and Bob where
+        the parties exchange ciphertexts of what appears to be a normal
+        conversation even to someone who knows the secret keys and thus can
+        read the corresponding plaintexts. And yet, at the end of the
+        protocol, Alice will have transmitted her secret message to Bob. Our
+        security definition requires that the adversary not be able to tell
+        whether Alice and Bob are just having a normal conversation using the
+        mandated encryption scheme, or they are using the mandated encryption
+        scheme for subliminal communication.
+
+        Our topics may be thought to fall broadly within the realm of
+        steganography: the science of hiding secret communication within
+        innocent-looking messages, or cover objects. However, we deal with
+        the non-standard setting of an adversarially chosen distribution of
+        cover objects (i.e., a stronger-than-usual adversary), and we take
+        advantage of the fact that our cover objects are ciphertexts of a
+        semantically secure encryption scheme to bypass impossibility results
+        which we show for broader classes of steganographic schemes. We give
+        several constructions of subliminal communication schemes under the
+        assumption that key exchange protocols with pseudorandom messages
+        exist (such as Diffie-Hellman, which in fact has truly random
+        messages). Each construction leverages the assumed semantic security
+        of the adversarially chosen encryption scheme, in order to achieve
+        subliminal communication.},
+}
+
 @article{Dominguez-Rodrigo2006a,
     author = {M.~Dom\'{i}nguez-Rodrigo and R.~Barba},
     title = {New estimates of tooth mark and percussion mark frequencies at
