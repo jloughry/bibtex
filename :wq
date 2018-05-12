@@ -16,10 +16,10 @@
 
 @misc{Roig2018a,
     author = {J.~V.~Roig},
-    title = {Do Smarter People Have Better Passwords? Yes, But\ldots},
+    title = {Do Smarter People Have Better Passwords?},
     year = 2018,
     month = {8th May},
-    howpublished = {arXiv:1805.02931 [cs.CR]},
+    howpublished = {arXiv:1805.02931},
     abstract = {The National Institute of Standards and Technology (NIST)
         released new guidelines in June of 2017 that recommended new
         standards for managing and accepting user passwords. Among the new
