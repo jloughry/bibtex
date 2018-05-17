@@ -14,6 +14,35 @@
 % TODO: begin entering author names here as Last, First instead.
 %
 
+@inproceedings{Wall2018a,
+    author = {Bob Wall and Patrick Walsh},
+    title = {Cryptographically Enforced Orthogonal Access Control at Scale},
+    booktitle = {6th International Workshop on Security in Cloud Computing
+        ({SCC'18})},
+    address = {Inchon, Korea},
+    publisher = {ACM},
+    month = {4th June},
+    year = 2018,
+    doi = {10.1145/3201595.3201602},
+    abstract = {We propose a new approach to cryptographically enforced data
+        access controls that uses public key cryptography to secure large
+        numbers of documents with arbitrarily large numbers of authorized
+        users. Our approach uses a proxy re-encryption (PRE) scheme to handle
+        the problems typical of public key cryptography including key
+        management, rotation, and revocation, in a highly scalable way, while
+        providing end-to-end encryption and provable access.
+
+        In this paper we describe a system based on this approach. We call it
+        an orthogonal access control system, because it allows the decision
+        about the groups to which to encrypt a piece of data to be made
+        independently and asynchronously from the decision about who belongs
+        to a group and can therefore decrypt the data. We define specific
+        requirements for a PRE scheme needed to support the system, and we
+        provide a specific instance that meets these requirements. We detail
+        the algorithms that make up the scheme, and we present an enhancement
+        that provides better revocability of keys.},
+}
+
 @article{Steele2018a,
     author = {Edward J.~Steele Shirwan Al-Mufti and Kenneth A.~Augustyn
         and Rohana Chandrajith and John P.~Coghlan and S.~G.~Coulson
