@@ -6,9 +6,10 @@ editor_cmd = /usr/bin/vi
 
 all:: $(target)
 
+github_level = ~/thesis/github
+
 $(target):
-	@echo "This is the source of the Consolidated BibTeX file. Make changes here."
-	@echo "There is nothing to make here."
+	(cd $(github_level)/notes.new && make)
 
 vi:
 	@$(editor_cmd) $(source) && echo "OK" || echo "return code from vi was $$?"
