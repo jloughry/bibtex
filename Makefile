@@ -9,7 +9,7 @@ all:: $(target)
 github_level = ~/thesis/github
 
 $(target):
-	(cd $(github_level)/notes.new && make)
+	(cd $(github_level)/notes.new && make touch && make)
 
 vi:
 	@$(editor_cmd) $(source) && echo "OK" || echo "return code from vi was $$?"
