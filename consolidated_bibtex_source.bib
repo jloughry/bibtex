@@ -14,6 +14,31 @@
 % TODO: begin entering author names here as Last, First instead.
 %
 
+@misc{May2019,
+  title = {Quantum Period Finding with a Single Output Qubit---Factoring
+    $n$-bit {RSA} with $n/2$ Qubits},
+  author = {Alexander May and Lars Schlieper},
+  year = 2019,
+  month = {24 May},
+  abstract = {We study quantum period finding algorithms such as Simon, Shor,
+    and Eker{\aa}-H{\aa}stad. For a periodic function $f$ these algorithms
+    produce---via some quantum embedding of $f$---a quantum superposition
+    $\sum_x\Ket{x}\Ket{f(x)}$,
+    which requires a certain amount of output bits that represent
+    $\Ket{f(x)}$. We show that we can lower this amount to a single output
+    qubit by hashing $f$ down to a single bit. Namely, we replace the embedding
+    of $f$ in quantum period finding circuits by several embeddings of hashed
+    versions of $f$. We show that on expectation this modification only doubles
+    the required amount of quantum measurements, while significantly reducing
+    the total number of qubits. For example, for Simon's period finding
+    algorithm in some $n$-bit function
+    $f:\mathbb{F}_2^n\rightarrow\mathbb{F}_2^n$ our hashing technique reduces
+    the required qubits from $2n$ down to $n+1$. For the Eker\aa-H\aa stad
+    algorithm for factoring $n$-bit RSA our hashing reduces the required qubits
+    from $({3\over 2}+o(1))n$ down to $({1\over 2}+o(1))n$.},
+  howpublished = {arXiv:1905.10074 [cs.CR]},
+}
+
 @misc{Burton2019,
   title = {Characterizing Certain {DNS DDoS} Attacks},
   author = {Ren\'{e}e Burton},
