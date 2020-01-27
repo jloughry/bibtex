@@ -14,7 +14,7 @@ $(target):
 	(cd $(github_level)/notes.new && make bibtex_only)
 
 vi:
-	@$(editor_cmd) $(source) && echo "OK" || echo "return code from vi was $$?"
+	@$(editor_cmd) +17 $(source) && echo "OK" || echo "return code from vi was $$?"
 
 include common.mk
 
