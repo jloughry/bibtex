@@ -25,17 +25,6 @@
   note = {\url{https://medium.com/cantors-paradise/shannon-ciphers-and-perfect-security-d70c10379ac2}},
 }
 
-@article{Sakalauskas2020,
-  journal = {Symmetry},
-  note = {Submitted for peer review},
-  title = {Perfect secure {Shannon} cipher construction based on
-    {Matrix Power Function}},
-  year = 2020,
-  month = {April},
-  author = {Sakalauskas, Eligijus and Dindien\.{e}, Lina
-    and Kil\v{c}iauskas, Au\v{s}rys and Luk\v{s}ys, K\c{e}stutis},
-}
-
 @misc{Bloom2020,
   author = {Bloom, Josh},
   month = {20 March},
