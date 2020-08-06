@@ -16,6 +16,47 @@
 
 
 
+@techreport{Masters2019,
+  type = {Cryptology ePrint Archive: Report},
+  cites = {Cited by \cite{Salter2020b}},
+  number = {2019/1113},
+  year = 2019,
+  title = {Towards a Homomorphic Machine Learning Big Data Pipeline for the
+    Financial Services Sector},
+  author = {Masters, Oliver and Hunt, Hamish and Steffinlongo, Enrico
+    and Crawford, Jack and Bergamaschi, Flavio and Dela Rosa, Maria E.
+    and Quini, Caio C. and Alves, Camila T. and de Souza, Feranda
+    and Ferreira, Deise G.},
+  abstract = {Machine learning (ML) is today commonly employed in the Financial
+    Services Sector (FSS) to create various models to predict a variety of
+    conditions ranging from financial transactions fraud to outcomes of
+    investments and also targeted marketing campaigns. The common ML technique
+    used for the modeling is supervised learning using regression algorithms
+    and usually involves large amounts of data that needs to be shared and
+    prepared before the actual learning phase. Compliance with privacy laws and
+    confidentiality regulations requires that most, if not all, of the data
+    must be kept in a secure environment, usually in-house, and not outsourced
+    to cloud or multi-tenant shared environments. This paper presents the
+    results of a research collaboration between IBM Research and Banco Bradesco
+    SA to investigate approaches to homomorphically secure a typical ML
+    pipeline commonly employed in the FSS industry. We investigated and
+    deconstructed a typical ML pipeline used by Banco Bradesco and applied
+    Homomorphic Encryption (HE) to two of the important ML tasks, namely the
+    variable selection phase of the model generation task and the prediction
+    task. Variable selection, which usually precedes the training phase, is
+    very important when working with data sets for which no prior knowledge of
+    the covariate set exists. Our work provides a way to define an initial
+    covariate set for the training phase while preserving the privacy and
+    confidentiality of the input data sets. Quality metrics, using real
+    financial data, comprising quantitative, qualitative and categorical
+    features, demonstrated that our HE based pipeline can yield results
+    comparable to state of the art variable selection techniques and the
+    performance results demonstrated that HE technology has reached the
+    inflection point where it can be useful in batch processing in a financial
+    business setting.},
+  institution = {International Association for Cryptologic Research},
+}
+
 @article{Salter2020b,
   author = {Salter, Jim},
   title = {{IBM} completes successful field trials on {Fully Homomorphic
@@ -24,6 +65,7 @@
   month = {31 July},
   note = {\url{https://arstechnica.com/gadgets/2020/07/ibm-completes-successful-field-trials-on-fully-homomorphic-encryption/}},
   journal = {Ars Technica},
+  cites = {Cites \cite{Masters2019}},
 }
 
 @misc{Zawinsky2020,
