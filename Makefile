@@ -16,5 +16,8 @@ $(target):
 vi:
 	@$(editor_cmd) +17 $(source) && echo "OK" || echo "return code from vi was $$?"
 
+count:
+	@grep "^@[a-z]" $(source) | wc -l
+
 include common.mk
 
