@@ -25,5 +25,8 @@ articles:
 books:
 	@grep "^@book.*{" $(source) | wc -l
 
+errors:
+	@egrep "^[^@%}[:space:]*]" $(source)
+
 include common.mk
 
