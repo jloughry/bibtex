@@ -19,5 +19,11 @@ vi:
 count:
 	@grep "^@[a-z]" $(source) | wc -l
 
+articles:
+	@grep "^@article.*{" $(source) | wc -l
+
+books:
+	@grep "^@book.*{" $(source) | wc -l
+
 include common.mk
 
