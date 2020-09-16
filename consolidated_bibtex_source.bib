@@ -16,6 +16,36 @@
 
 
 
+@inproceedings{Janovsky2020,
+  cites = {Cites \cite{Svenda2016a}},
+  title = {Biased {RSA} private keys: Origin attribution of {GCD}-factorable
+    keys},
+  author = {Janovsky, Adam and Nemec, Matus and Svenda, Petr and Sekan, Peter
+    and Matyas, Vashek},
+  abstract = {In 2016, Svenda et al.\ (USENIX 2016, The Million-key Question)
+    reported that the implementation choices in cryptographic libraries allow
+    for qualified guessing about the origin of public RSA keys. We extend the
+    technique to two new scenarios when not only public but also private keys
+    are available for the origin attribution - analysis of a source of
+    GCD-factorable keys in IPv4-wide TLS scans and forensic investigation of an
+    unknown source. We learn several representatives of the bias from the
+    private keys to train a model on more than 150 million keys collected from
+    70 cryptographic libraries, hardware security modules and cryptographic
+    smartcards. Our model not only doubles the number of distinguishable groups
+    of libraries (compared to public keys from Svenda et al.) but also improves
+    more than twice in accuracy w.r.t. random guessing when a single key is
+    classified. For a forensic scenario where at least 10 keys from the same
+    source are available, the correct origin library is correctly identified
+    with average accuracy of 89% compared to 4% accuracy of a random guess. The
+    technique was also used to identify libraries producing GCD-factorable TLS
+    keys, showing that only three groups are the probable suspects.},
+
+  booktitle = {ESORICS 2020},
+  note = {arXiv:2009.06700 [cs.CR]},
+  year = 2020,
+  month = {14 September},
+}
+
 @misc{Stross2020,
   month = {8 September},
   year = 2020,
@@ -60619,17 +60649,18 @@ note = {I had to add this note to get it to compile.}
 }
 
 @inproceedings{Svenda2016a,
-    author = {Petr \v{S}venda and Mat\'{u}\v{s} Nemec and Peter Sekan
-        and Rudolf Kva\v{s}\v{n}ovsk\'{y} and David Form\'{a}nek
-        and David Kom\'{a}rek and Vashek Maty\'{a}\v{s}},
-    title = {The Million-Key Question---Investigating the Origins of {RSA}
-        Public Keys},
-    booktitle = {25th USENIX Security Synposium},
-    address = {Austin, Texas},
-    month = {10--12 August},
-    year = 2016,
-    pages = {893--910},
-    publisher = {USENIX Association},
+  cites = {Cited by \cite{Janovsky2020}},
+  author = {Petr \v{S}venda and Mat\'{u}\v{s} Nemec and Peter Sekan
+    and Rudolf Kva\v{s}\v{n}ovsk\'{y} and David Form\'{a}nek
+    and David Kom\'{a}rek and Vashek Maty\'{a}\v{s}},
+  title = {The Million-Key Question---Investigating the Origins of {RSA}
+    Public Keys},
+  booktitle = {25th USENIX Security Synposium},
+  address = {Austin, Texas},
+  month = {10--12 August},
+  year = 2016,
+  pages = {893--910},
+  publisher = {USENIX Association},
 }
 
 @inproceedings{Cui2016a,
