@@ -16,6 +16,51 @@
 
 
 
+@techreport{Lomne2021,
+  author = {Lomne, Victor and Roche, Thomas},
+  year = 2021,
+  cites = {Cited by \cite{Cimpanu2021}; cites \cite{CVE2021a}},
+  title = {A Side Journey to {Titan}},
+  month = {7 January},
+  institution = {NinjaLab},
+}
+
+@article{Cimpanu2021,
+  title = {New side-channel attack can recover encryption keys from
+    {Google Titan} security keys},
+  year = 2021,
+  month = {8 January},
+  author = {Cimpanu, Catalin},
+  journal = {ZDNet},
+  note = {\url{https://www.zdnet.com/article/new-side-channel-attack-can-recover-encryption-keys-from-google-titan-security-keys/}},
+  cites = {Cites \cite{Lomne2021,CVE2021a}},
+}
+
+@techreport{CVE2021a,
+  cites = {Cited by \cite{Cimpanu2021,Lomne2021}},
+  year = 2021,
+  number = {CVE-2021-3011},
+  type = {CVE-ID},
+  title = {An electromagnetic-wave side-channel issue was discovered on
+    {NXP SmartMX / P5x} security microcontrollers and {A7x} secure
+    authentication microcontrollers, with {CryptoLib} through v2.9.},
+  abstract = {It allows attackers to extract the ECDSA private key after
+    extensive physical access (and consequently produce a clone). This was
+    demonstrated on the Google Titan Security Key, based on an NXP A7005a chip.
+    Other FIDO U2F security keys are also impacted (Yubico YubiKey Neo and
+    Feitian K9, K13, K21, and K40) as well as several NXP JavaCard smartcards
+    (J3A081, J2A081, J3A041, J3D145_M59, J2D145_M59, J3D120_M60, J3D082_M60,
+    J2D120_M60, J2D082_M60, J3D081_M59, J2D081_M59, J3D081_M61, J2D081_M61,
+    J3D081_M59_DF, J3D081_M61_DF, J3E081_M64, J3E081_M66, J2E081_M64,
+    J3E041_M66, J3E016_M66, J3E016_M64, J3E041_M64, J3E145_M64, J3E120_M65,
+    J3E082_M65, J2E145_M64, J2E120_M65, J2E082_M65, J3E081_M64_DF,
+    J3E081_M66_DF, J3E041_M66_DF, J3E016_M66_DF, J3E041_M64_DF, and
+    J3E016_M64_DF).},
+  author = {{Common Vulnerabilities and Exposures}},
+  note = {\url{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3011}},
+  institution = {MITRE},
+}
+
 @book{Reilly2019b,
   author = {Reilly, Rick},
   title = {Commander in Cheat: How Golf Explains {T}rump},
