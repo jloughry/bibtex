@@ -16,6 +16,37 @@
 
 
 
+@techreport{Vu2021,
+  title = {Secure Optimization Through Opaque Observations},
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  number = {arXiv:2101.06039 [cs.CR]},
+  month = {15 January},
+  abstract = {Secure applications implement software protections against
+    side-channel and physical attacks. Such protections are meaningful at
+    machine code or micro-architectural level, but they typically do not carry
+    observable semantics at source level. To prevent optimizing compilers from
+    altering the protection, security engineers embed input/output side-effects
+    into the protection. These side-effects are error-prone and
+    compiler-dependent, and the current practice involves analyzing the
+    generated machine code to make sure security or privacy properties are
+    still enforced. Vu et al.\ recently demonstrated how to automate the
+    insertion of volatile side-effects in a compiler [52], but these may be
+    too expensive in fined-grained protections such as control-flow integrity.
+    We introduce observations of the program state that are intrinsic to the
+    correct execution of security protections, along with means to specify and
+    preserve observations across the compilation flow. Such observations
+    complement the traditional input/output-preservation contract of compilers.
+    We show how to guarantee their preservation without modifying compilation
+    passes and with as little performance impact as possible. We validate our
+    approach on a range of benchmarks, expressing the secure compilation of
+    these applications in terms of observations to be made at specific program
+    points.},
+  author = {Vu, Son Tuan and Cohen, Albert and Heydemann, Karine
+    and de Grandmaison, Arnaud and Guillon, Christophe},
+  year = 2021,
+}
+
 @techreport{Torres2021,
   title = {The {Eye of Horus}: Spotting and Analyzing Attacks on {Ethereum}
     Smart Contracts},
