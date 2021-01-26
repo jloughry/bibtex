@@ -16,6 +16,46 @@
 
 
 
+@techreport{Kohler2021,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  number = {arXiv:2101.10011 [cs.CV]},
+  title = {They See Me Rollin': Inherent Vulnerability of the Rolling Shutter
+    in {CMOS} Image Sensors},
+  author = {K\"{o}hler, Sebastian and Lovisotto, Giulio and Birnbach, Simon
+    and Baker, Richard and Martinovic, Ivan},
+  year = 2021,
+  month = {25 January},
+  abstract = {Cameras have become a fundamental component of vision-based
+    intelligent systems. As a balance between production costs and image
+    quality, most modern cameras use Complementary Metal-Oxide Semiconductor
+    image sensors that implement an electronic rolling shutter mechanism, where
+    image rows are captured consecutively rather than all-at-once.
+
+    In this paper, we describe how the electronic rolling shutter can be
+    exploited using a bright, modulated light source (e.g., an inexpensive,
+    off-the-shelf laser), to inject fine-grained image disruptions. These
+    disruptions substantially affect camera-based computer vision systems,
+    where high-frequency data is crucial in extracting informative features
+    from objects.
+
+    We study the fundamental factors affecting a rolling shutter attack, such
+    as environmental conditions, angle of the incident light, laser to camera
+    distance, and aiming precision. We demonstrate how these factors affect the
+    intensity of the injected distortion and how an adversary can take them
+    into account by modeling the properties of the camera. We introduce a
+    general pipeline of a practical attack, which consists of: (i) profiling
+    several properties of the target camera and (ii) partially simulating the
+    attack to find distortions that satisfy the adversary's goal. Then, we
+    instantiate the attack to the scenario of object detection, where the
+    adversary's goal is to maximally disrupt the detection of objects in the
+    image. We show that the adversary can modulate the laser to hide up to 75%
+    of objects perceived by state-of-the-art detectors while controlling the
+    amount of perturbation to keep the attack inconspicuous. Our results
+    indicate that rolling shutter attacks can substantially reduce the
+    performance and reliability of vision-based intelligent systems.},
+}
+
 @misc{Li2019d,
   title = {How we built the {Waifu Vending Machine}},
   year = 2019,
