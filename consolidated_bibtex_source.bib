@@ -16,6 +16,33 @@
 
 
 
+@techreport{Brooker2021a,
+  title = {Restoring Uniqueness in {MicroVM} Snapshots},
+  author = {Brooker, Marc and Catangiu, Adrian Costin and Danilov, Mike
+    and Graf, Alexander and MacCarthaigh, Colm and Sandu Andrei},
+  abstract = {Code initialization---the step of loading code, executing static
+    code, filling caches, and forming re-used connections---tends to dominate
+    cold-start time in serverless compute systems such as AWS Lambda.
+    Post-initialization memory snapshots, cloned and restored on start, have
+    emerged as a viable solution to this problem, with incremental snapshot and
+    fast restore support in VMMs like Firecracker.
+
+    Saving memory introduces the challenge of managing high-value memory
+    contents, such as cryptographic secrets. Cloning introduces the challenge
+    of restoring the uniqueness of the VMs, to allow them to do unique things
+    like generate UUIDs, secrets, and nonces. This paper examines solutions to
+    these problems in the every microsecond counts context of serverless
+    cold-start, and discusses the state-of-the-art of available solutions. We
+    present two new interfaces aimed at solving this
+    problem--- MADV\_WIPEONSUSPEND and SysGenId---and compare them to
+    alternative solutions.},
+  number = {arXiv:2102.12892 [cs.CR]},
+  year = 2021,
+  month = {4 February},
+  institution = {Cornell University},
+  type = {arXiv preprint},
+}
+
 @techreport{Grundmann2021a,
   title = {On the Estimation of the Number of Unreachable Peers in the
     {Bitcoin P2P} Network by Observation of Peer Announcements},
