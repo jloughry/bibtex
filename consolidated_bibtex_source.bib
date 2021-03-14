@@ -16,6 +16,38 @@
 
 
 
+@techreport{Bai2021a,
+  number = {arXiv:2009.10060v3 [cs.CR]},
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2021,
+  month = {8 March},
+  title = {Information Signaling: A Counter-Intuitive Defense Against Password
+    Cracking},
+  author = {Bai, Wenjie and Blocki, Jeremiah and Harsha, Ben},
+  abstract = {We introduce password strength information signaling as a novel,
+    yet counter-intuitive, defense mechanism against password cracking attacks.
+    Recent breaches have exposed billions of user passwords to the dangerous
+    threat of offline password cracking attacks. An offline attacker can
+    quickly check millions (or sometimes billions/trillions) of password
+    guesses by comparing their hash value with the stolen hash from a breached
+    authentication server. The attacker is limited only by the resources he is
+    willing to invest. Our key idea is to have the authentication server store
+    a (noisy) signal about the strength of each user password for an offline
+    attacker to find. Surprisingly, we show that the noise distribution for the
+    signal can often be tuned so that a rational (profit-maximizing) attacker
+    will crack fewer passwords. The signaling scheme exploits the fact that
+    password cracking is not a zero-sum game i.e., the attacker's profit is
+    given by the value of the cracked passwords minus the total guessing cost.
+    Thus, a well-defined signaling strategy will encourage the attacker to
+    reduce his guessing costs by cracking fewer passwords. We use an
+    evolutionary algorithm to compute the optimal signaling scheme for the
+    defender. As a proof-of-concept, we evaluate our mechanism on several
+    password datasets and show that it can reduce the total number of cracked
+    passwords by up to 12\% (resp.\ 5\%) of all users in defending against
+    offline (resp. online) attacks.},
+}
+
 @inproceedings{Paccagnella2021a,
   year = 2021,
   title = {{Lord of the Ring(s)}: Side Channel Attacks on the {CPU} On-Chip
