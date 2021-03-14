@@ -16,6 +16,33 @@
 
 
 
+@inproceedings{Paccagnella2021a,
+  year = 2021,
+  title = {{Lord of the Ring(s)}: Side Channel Attacks on the {CPU} On-Chip
+    Ring Interconnect Are Practical},
+  author = {Paccagnella, Riccardo and Luo, Licheng
+    and Fletcher, Christopher W.},
+  abstract = {We introduce the first microarchitectural side channel attacks
+    that leverage contention on the CPU ring interconnect. There are two
+    challenges that make it uniquely difficult to exploit this channel. First,
+    little is known about the ring interconnect's functioning and architecture.
+    Second, information that can be learned by an attacker through ring
+    contention is noisy by nature and has coarse spatial granularity. To
+    address the first challenge, we perform a thorough reverse engineering of
+    the sophisticated protocols that handle communication on the ring
+    interconnect. With this knowledge, we build a cross-core covert channel
+    over the ring interconnect with a capacity of over 4 Mbps from a single
+    thread, the largest to date for a cross-core channel not relying on shared
+    memory. To address the second challenge, we leverage the fine-grained
+    temporal patterns of ring contention to infer a victim program's secrets.
+    We demonstrate our attack by extracting key bits from vulnerable EdDSA and
+    RSA implementations, as well as inferring the precise timing of keystrokes
+    typed by a victim user.},
+  booktitle = {{USENIX Security 2021}},
+  month = {11--13 August},
+  address = {Virtual},
+}
+
 @inproceedings{Ozcelik2021a,
   title = {An Overview of Cryptographic Accumulators},
   author = {Ozcelik, Ilker and Medury, Sai and Broaddus, Justin
