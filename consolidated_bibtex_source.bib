@@ -16,6 +16,34 @@
 
 
 
+@inproceedings{Jaloyan2021a,
+  month = {5--9 October},
+  title = {{Return-Oriented Programming} on {RISC-V}},
+  author = {Jaloyan, Georges-Axel and Markantonakis, Konstantinos
+    and Akram, Raja Naeem and Robin, David and Mayes, Keith
+    and Naccache, David},
+  abstract = {This paper provides the first analysis on the feasibility of
+    Return-Oriented Programming (ROP) on RISC-V, a new instruction set
+    architecture targeting embedded systems. We show the existence of a new
+    class of gadgets, using several Linear Code Sequences And Jumps (LCSAJ),
+    undetected by current Galileo-based ROP gadget searching tools. We argue
+    that this class of gadgets is rich enough on RISC-V to mount complex ROP
+    attacks, bypassing traditional mitigation like DEP, ASLR, stack canaries,
+    G-Free, as well as some compiler-based backward-edge CFI, by jumping over
+    any guard inserted by a compiler to protect indirect jump instructions. We
+    provide examples of such gadgets, as well as a proof-of-concept ROP chain,
+    using C code injection to leverage a privilege escalation attack on two
+    standard Linux operating systems. Additionally, we discuss some of the
+    required mitigations to prevent such attacks and provide a new ROP gadget
+    finder algorithm that handles this new class of gadgets.},
+  booktitle = {Proceedings of the 15th {ACM Asia} Conference on Computer and
+    Communications Security ({AsiaCCS} 2020)},
+  pages = {471--480},
+  address = {Taipei Taiwan},
+  doi = {10.1145/3320269.3384738},
+  year = 2020,
+}
+
 @inproceedings{Mondal2011a,
   title = {A New Approach to Enhance Security of Visual Cryptography Using
     Steganography ({VisUS})},
