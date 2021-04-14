@@ -16,6 +16,39 @@
 
 
 
+@techreport{Ahmad2021a,
+  author = {Ahmad, Sohaib and Geiger, Christopher and Fuller, Benjamin},
+  title = {Resist: Reconstruction of irises from templates},
+  abstract = {Iris recognition systems transform an iris image into a feature
+    vector. The seminal pipeline segments an image into iris and non-iris
+    pixels, normalizes this region into a fixed-dimension rectangle, and
+    extracts features which are stored and called a template (Daugman, 2009).
+    This template is stored on a system. A future reading of an iris can be
+    transformed and compared against template vectors to determine or verify
+    the identity of an individual. As templates are often stored together, they
+    are a valuable target to an attacker. We show how to invert templates
+    across a variety of iris recognition systems. That is, we show how to
+    transform templates into realistic looking iris images that are also deemed
+    as the same iris by the corresponding recognition system. Our inversion is
+    based on a convolutional neural network architecture we call RESIST
+    (REconStructing IriSes from Templates). We apply RESIST to a traditional
+    Gabor filter pipeline, to a DenseNet (Huang et al., CVPR 2017) feature
+    extractor, and to a DenseNet architecture that works without normalization.
+    Both DenseNet feature extractors are based on the recent ThirdEye
+    recognition system (Ahmad and Fuller, BTAS 2019). When training and testing
+    using the ND-0405 dataset, reconstructed images demonstrate a rank-1
+    accuracy of 100\%, 76\%, and 96\% respectively for the three pipelines. The
+    core of our approach is similar to an autoencoder. However, standalone
+    training the core produced low accuracy. The final architecture integrates
+    into an generative adversarial network (Goodfellow et al., NeurIPS, 2014)
+    producing higher accuracy.},
+  month = {13 April},
+  year = 2021,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  number = {arXiv:2007.15850 [cs.CV]},
+}
+
 @article{Infosecurity2009a,
   author = {Unknown},
   title = {Blind hacker fulfils {\emph{Sneakers}} movie role 17 years on},
