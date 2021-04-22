@@ -16,6 +16,35 @@
 
 
 
+@techreport{Sayles2021a,
+  title = {Invisible Perturbations: Physical Adversarial Examples Exploiting
+    the Rolling Shutter Effect},
+  author = {Sayles, Athena and Hooda, Ashish and Gupta, Mohit
+    and Chatterjee, Rahul and Fernandes, Earlence},
+  abstract = {Physical adversarial examples for camera-based computer vision
+    have so far been achieved through visible artifacts---a sticker on a Stop
+    sign, colorful borders around eyeglasses or a 3D printed object with a
+    colorful texture. An implicit assumption here is that the perturbations
+    must be visible so that a camera can sense them. By contrast, we contribute
+    a procedure to generate, for the first time, physical adversarial examples
+    that are invisible to human eyes. Rather than modifying the victim object
+    with visible artifacts, we modify light that illuminates the object. We
+    demonstrate how an attacker can craft a modulated light signal that
+    adversarially illuminates a scene and causes targeted misclassifications on
+    a state-of-the-art ImageNet deep learning model. Concretely, we exploit the
+    radiometric rolling shutter effect in commodity cameras to create precise
+    striping patterns that appear on images. To human eyes, it appears like the
+    object is illuminated, but the camera creates an image with stripes that
+    will cause ML models to output the attacker-desired classification. We
+    conduct a range of simulation and physical experiments with LEDs,
+    demonstrating targeted attack rates up to 84\%.},
+  year = 2021,
+  month = {18 April},
+  number = {arXiv:2011.13375 [cs.CV]},
+  institution = {Cornell University},
+  type = {arXiv preprint},
+}
+
 @techreport{Heimdahl2021a,
   cites = {Cited by \cite{FOSSPost2021a}},
   title = {Statement from {CS\&E} on {Linux} Kernel
