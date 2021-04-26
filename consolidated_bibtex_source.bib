@@ -16,6 +16,37 @@
 
 
 
+@techreport{Cadavid2021a,
+  title = {An integer factorization algorithm which uses diffusion as a
+    computational engine},
+  author = {Cadavid, Carlos A. and Hoyos, Paulina and Jorgenson, Jay
+    and Smajlovi\'{c}, Lejla and V\'{e}lez, Juan D.},
+  abstract = {In this article we develop an algorithm which computes a divisor
+    of an integer $N$, which is assumed to be neither prime nor the power of a
+    prime. The algorithm uses discrete time heat diffusion on a finite graph.
+    If $N$ has $m$ distinct prime factors, then the probability that our
+    algorithm runs successfully is at least $p(m)=1−(m+1)/2^m$. We compute the
+    computational complexity of the algorithm in terms of classical, or
+    digital, steps and in terms of diffusion steps, which is a concept that we
+    define here. As we will discuss below, we assert that a diffusion step can
+    and should be considered as being comparable to a quantum step for an
+    algorithm which runs on a quantum computer. With this, we prove that our
+    factorization algorithm uses at most $O((\log N)^2)$ deterministic steps
+    and at most $O((\log N)^2)$ diffusion steps with an implied constant which
+    is effective. By comparison, Shor's algorithm is known to use at most
+    $O((log N)^2\log(log N)\log(\log\log N))$ quantum steps on a quantum
+    computer.
+
+    As an example of our algorithm, we simulate the diffusion computer
+    algorithm on a desktop computer and obtain factorizations of $N=33$ and
+    $N=1363$.},
+  number = {arXiv:2104.11616 [quant-ph]},
+  month = {23 April},
+  year = 2021,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+}
+
 @techreport{Brown2021b,
   title = {Not So Fast: Understanding and Mitigating Negative Impacts of
     Compiler Optimizations on Code Reuse Gadget Sets},
