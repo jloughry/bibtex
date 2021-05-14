@@ -16,7 +16,24 @@
 
 
 
+@incollection{Dupre2019a,
+  title = {Filtering Bridges},
+  author = {Dupre, Alex},
+  booktitle = {FreeBSD Handbook},
+  year = 2019,
+  abstract = {Often it is useful to divide one physical network (like an
+    Ethernet) into two separate segments without having to create subnets, and
+    use a router to link them together. The device that connects the two
+    networks in this way is called a bridge. A FreeBSD system with two network
+    interfaces is enough in order to act as a bridge.
 
+    A bridge works by scanning the addresses of MAC level (Ethernet addresses)
+    of the devices connected to each of its network interfaces and then
+    forwarding the traffic between the two networks only if the source and the
+    destination are on different segments. Under many points of view a bridge
+    is similar to an Ethernet switch with only two ports.},
+  publisher = {FreeBSD Foundation},
+}
 
 @article{Salter2021b,
   author = {Salter, Jim},
