@@ -16,6 +16,59 @@
 
 
 
+@article{Franceschi-Bicchierai2021a,
+  year = 2021,
+  month = {17 June},
+  title = {Bombshell Report Finds Phone Network Encryption Was Deliberately
+    Weakened},
+  author = {Franceschi-Bicchierai, Lorenzo},
+  journal = {Vice},
+  note = {\url{https://www.vice.com/en/contributor/lorenzo-franceschi-bicchierai}},
+  cites = {Cites \cite{Beierle2021a}; see also \cite{Beierle2021b}},
+}
+
+@techreport{Beierle2021a,
+  cites = {Cited by \cite{Franceschi-Bicchierai2021a}},
+  year = 2021,
+  institution = {International Association for Cryptologic Research},
+  type = {IACR e-print},
+  number = {Report 2021/819},
+  author = {Beierle, Christof and Derbez, Patrick and Leander, Gregor
+    and Leurent, Ga\'{e}tan and Raddum, H\r{a}vard and Rotella, Yann
+    and Rupprecht, David and Stennes, Lukas},
+  title = {Cryptanalysis of the {GPRS} Encryption Algorithms {GEA-1} and
+    {GEA-2}},
+  abstract = {This paper presents the first publicly available cryptanalytic
+    attacks on the GEA-1 and GEA-2 algorithms. Instead of providing full 64-bit
+    security, we show that the initial state of GEA-1 can be recovered from as
+    little as 65 bits of known keystream (with at least 24 bits coming from one
+    frame) in time $2^{40}$ GEA-1 evaluations and using 44.5 GiB of memory. The
+    attack on GEA-1 is based on an exceptional interaction of the deployed
+    LFSRs and the key initialization, which is highly unlikely to occur by
+    chance. This unusual pattern indicates that the weakness is intentionally
+    hidden to limit the security level to 40 bit by design.
+
+    In contrast, for GEA-2 we did not discover the same intentional weakness.
+    However, using a combination of algebraic techniques and list merging
+    algorithms we are still able to break GEA-2 in time $2^{45.1}$ GEA-2
+    evaluations. The main practical hurdle is the required knowledge of 1600
+    bytes of keystream.},
+}
+
+@inproceedings{Beierle2021b,
+  doi = {10.1007/978-3-030-77886-6_6},
+  booktitle = {Eurocrypt 2021},
+  address = {Zagreb, Croatia},
+  month = {17--21 October},
+  author = {Beierle, Christof and Derbez, Patrick and Leander, Gregor
+    and Leurent, Ga\'{e}tan and Raddum, H\r{a}vard and Rotella, Yann
+    and Rupprecht, David and Stennes, Lukas},
+  title = {Cryptanalysis of the {GPRS} Encryption Algorithms {GEA-1} and
+    {GEA-2}},
+  year = 2021,
+  cites = {Cited by \cite{Franceschi-Bicchierai2021a}},
+}
+
 @article{Fisher2021a,
   title = {The clever folds that kept letters secret},
   year = 2021,
