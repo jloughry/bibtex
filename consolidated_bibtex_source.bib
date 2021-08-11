@@ -16,6 +16,63 @@
 
 
 
+@article{Salter2021c,
+  author = {Salter, Jim},
+  title = {New ``{Glowworm} attack'' recovers audio from devices' power
+    {LED}s},
+  year = 2021,
+  journal = {Ars Technica},
+  month = {9 August},
+  note = {\url{https://arstechnica.com/gadgets/2021/08/new-glowworm-attack-recovers-audio-from-devices-power-leds/}},
+  cites = {Cites \cite{Nassi2021a}},
+}
+
+@inproceedings{Nassi2021a,
+  title = {{Glowworm Attack}: Optical {TEMPEST} Sound Recovery via a Device's
+    Power Indicator {LED}},
+  author = {Nassi, Ben and Pirutin, Yaron and Galor, Tomer and Elovici, Yuval
+    and Zadov, Boris},
+  note = {\url{https://www.nassiben.com/glowworm-attack}},
+  booktitle = {{ACM CCS 2021}},
+  address = {Coex, Seoul, South Korea},
+  month = {15--19 November},
+  year = 2021,
+  cites = {Cited by \cite{Salter2021c}; cites \cite{Loughry2002a}},
+  abstract = {Two main classes of optical TEMPEST attacks against the
+    confidentiality of information processed/delivered by devices have been
+    demonstrated in the past two decades; the first class includes methods for
+    recovering content from monitors, and the second class includes methods for
+    recovering keystrokes from physical and virtual keyboards.
+
+    In this paper, we identify a new class of optical TEMPEST attacks:
+    recovering sound by analyzing optical emanations from a device’s power
+    indicator LED.
+
+    We analyze the response of the power indicator LED of various devices to
+    sound and show that there is an optical correlation between the sound that
+    is played by connected speakers and the intensity of their power indicator
+    LED due to the facts that: (1) the power indicator LED of various devices
+    is connected directly to the power line, (2) the intensity of a device's
+    power indicator LED is correlative to the power consumption, and (3) many
+    devices lack a dedicated means of countering this phenomenon.
+
+    Based on our findings, we present the Glowworm attack, an optical TEMPEST
+    attack that can be used by eavesdroppers to recover sound by analyzing
+    optical measurements obtained via an electro-optical sensor directed at the
+    power indicator LED of various devices (e.g., speakers, USB hub splitters,
+    and microcontrollers).
+
+    We propose an optical-audio transformation (OAT) to recover sound by
+    isolating the speech from the optical measurements obtained by directing an
+    electro-optical sensor at a device's power indicator LED.
+
+    Finally, we test the performance of the Glowworm attack in various
+    experimental setups and show that an eavesdropper can apply the attack to
+    recover speech from a speaker's power indicator LED with good
+    intelligibility from a distance of 15 meters and with fair intelligibility
+    from 35 meters.},
+}
+
 @article{Robertson2021c,
   author = {Robertson, Adi},
   title = {{Facebook} can project your eyes onto a {VR} headset, and it's
