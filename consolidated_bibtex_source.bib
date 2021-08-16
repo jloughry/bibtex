@@ -16,6 +16,39 @@
 
 
 
+@techreport{Bittner2021a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {13 August},
+  year = 2021,
+  title = {The Forgotten Threat of Voltage Glitching: A Case Study on
+    {Nvidia Tegra X2 SoCs}},
+  author = {Bittner, Otto and Krachenfels, Thilo and Galauner, Andreas
+    and Seifert, Jean-Pierre},
+  abstract = {Voltage fault injection (FI) is a well-known attack technique
+    that can be used to force faulty behavior in processors during their
+    operation. Glitching the supply voltage can cause data value corruption,
+    skip security checks, or enable protected code paths. At the same time,
+    modern systems on a chip (SoCs) are used in security-critical applications,
+    such as self-driving cars and autonomous machines. Since these embedded
+    devices are often physically accessible by attackers, vendors must consider
+    device tampering in their threat models. However, while the threat of
+    voltage FI is known since the early 2000s, it seems as if vendors still
+    forget to integrate countermeasures. This work shows how the entire boot
+    security of an Nvidia SoC, used in Tesla's autopilot and Mercedes-Benz's
+    infotainment system, can be circumvented using voltage FI. We uncover a
+    hidden bootloader that is only available to the manufacturer for testing
+    purposes and disabled by fuses in shipped products. We demonstrate how to
+    re-enable this bootloader using FI to gain code execution with the highest
+    privileges, enabling us to extract the bootloader's firmware and decryption
+    keys used in later boot stages. Using a hardware implant, an adversary
+    might misuse the hidden bootloader to bypass trusted code execution even
+    during the system's regular operation.},
+  note = {Accepted for publication at the 2021 Workshop on Fault Detection and
+    Tolerance in Cryptography (FDTC)},
+  number = {arXiv:2108.06131 [cs.CR]},
+}
+
 @techreport{Shepherd2021b,
   institution = {Cornell University},
   type = {arXiv preprint},
