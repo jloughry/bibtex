@@ -15,6 +15,39 @@
 %
 
 
+
+@techreport{Li2021c,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {24 August},
+  year = 2021,
+  title = {Image-based Insider Threat Detection via Geometric Transformation},
+  author = {Li, Dongyang and Yang, Lin and Zhang, Hongguang and Wang, Xiaolei
+    and Ma, Linru and Xiao, Junchao},
+  abstract = {Insider threat detection has been a challenging task over
+    decades, existing approaches generally employ the traditional generative
+    unsupervised learning methods to produce normal user behavior model and
+    detect significant deviations as anomalies. However, such approaches are
+    insufficient in precision and computational complexity. In this paper, we
+    propose a novel insider threat detection method, Image-based Insider Threat
+    Detector via Geometric Transformation (IGT), which converts the
+    unsupervised anomaly detection into supervised image classification task,
+    and therefore the performance can be boosted via computer vision
+    techniques. To illustrate, our IGT uses a novel image-based feature
+    representation of user behavior by transforming audit logs into grayscale
+    images. By applying multiple geometric transformations on these behavior
+    grayscale images, IGT constructs a self-labelled dataset and then train a
+    behavior classifier to detect anomaly in self-supervised manner. The
+    motivation behind our proposed method is that images converted from normal
+    behavior data may contain unique latent features which keep unchanged after
+    geometric transformation, while malicious ones cannot. Experimental results
+    on CERT dataset show IGT outperforms the classical autoencoder-based
+    unsupervised insider threat detection approaches, and improves the instance
+    and user based Area under the Receiver Operating Characteristic Curve
+    (AUROC) by 4\% and 2\%, respectively.},
+  number = {arXiv:2108.10567 [cs.CR]},
+}
+
 @techreport{Torres2021b,
   institution = {Cornell University},
   type = {arXiv preprint},
