@@ -16,6 +16,37 @@
 
 
 
+@techreport{Deng2021a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {9 September},
+  year = 2021,
+  title = {Leaky Frontends: Security Vulnerabilities in Processor Frontends},
+  author = {Deng, Shuwen and Huang, Bowen and Szefer, Jakub},
+  abstract = {This paper evaluates new security threats due to the processor
+    frontend in modern Intel processors. The security threats are based on new
+    timing and power covert channels. The root causes of the security threats
+    are the multiple paths in the processor frontend that the micro-ops can
+    take: through the Micro-Instruction Translation Engine (MITE), through the
+    Decode Stream Buffer (DSB), also called the Micro-op Cache, or through the
+    Loop Stream Detector (LSD). Each path has its own unique timing and power
+    signatures, which lead to the security threats presented in this work. In
+    addition, the switching between the different paths can lead to observable
+    timing or power differences which could be exploited by attackers. Because
+    of the different paths, the switching, and the way the components are
+    shared in the frontend between hardware threads, two separate threads are
+    able to be mutually influenced and timing or power can reveal activity on
+    the other thread. The security threats are not limited to multi-threading,
+    and this work further demonstrates new ways for leaking execution
+    information about SGX enclaves or a new in-domain Spectre variant. In
+    addition, this work demonstrates a new method for fingerprinting the
+    microcode patches of the processor by analyzing the behavior of different
+    paths in the frontend. This work demonstrates that the whole processor
+    frontend needs to be considered when ensuring the security of processor
+    architectures.},
+  number = {arXiv:2105.12224 [cs.CR]},
+}
+
 @techreport{Babel2021a,
   institution = {Cornell University},
   type = {arXiv preprint},
