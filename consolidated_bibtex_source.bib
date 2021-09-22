@@ -16,6 +16,52 @@
 
 
 
+@inproceedings{Aldaya2022a,
+  year = 2022,
+  title = {{HyperDegrade}: From {GHz} to {MHz} Effective {CPU} Frequencies},
+  author = {Aldaya, Alejandro Cabrera and Brumley, Billy Bob},
+  note = {See also \cite{Aldaya2021a} for abstract},
+  booktitle = {{USENIX Security 2022}},
+  month = {10--12 August},
+  address = {Boston, Massachusetts},
+}
+
+@techreport{Aldaya2021a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2021,
+  month = {21 September},
+  title = {{HyperDegrade}: From {GHz} to {MHz} Effective {CPU} Frequencies},
+  author = {Aldaya, Alejandro Cabrera and Brumley, Billy Bob},
+  abstract = {Performance degradation techniques are an important complement to
+    side-channel attacks. In this work, we propose HyperDegrade---a
+    combination of previous approaches and the use of simultaneous
+    multithreading (SMT) architectures. In addition to the new technique, we
+    investigate the root causes of performance degradation using cache
+    eviction, discovering a previously unknown slowdown origin. The slowdown
+    produced is significantly higher than previous approaches, which translates
+    into an increased time granularity for Flush+Reload attacks. We evaluate
+    HyperDegrade on different Intel microarchitectures, yielding significant
+    slowdowns that achieve, in select microbenchmark cases, three orders of
+    magnitude improvement over state-of-the-art. To evaluate the efficacy of
+    performance degradation in side-channel amplification, we propose and
+    evaluate leakage assessment metrics. The results evidence that HyperDegrade
+    increases time granularity without a meaningful impact on trace quality.
+    Additionally, we designed a fair experiment that compares three performance
+    degradation strategies when coupled with Flush+Reload from an attacker
+    perspective. We developed an attack on an unexploited vulnerability in
+    OpenSSL in which HyperDegrade excels---reducing by three times the number
+    of required Flush+Reload traces to succeed. Regarding cryptography
+    contributions, we revisit the recently proposed Raccoon attack on TLS-DH
+    key exchanges, demonstrating its application to other protocols. Using
+    HyperDegrade, we developed an end-to-end attack that shows how a
+    Raccoon-like attack can succeed with real data, filling a missing gap from
+    previous research.},
+  note = {Accepted to USENIX Security Symposium 2022; see \cite{Aldaya2022a}
+    for the published version},
+  number = {arXiv:2101.01077 [cs.CR]},
+}
+
 @inproceedings{Maia2022a,
   title = {Can one hear the shape of a neural network?: Snooping the {GPU} via
     Magnetic Side Channel},
