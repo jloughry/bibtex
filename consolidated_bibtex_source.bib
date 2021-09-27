@@ -15,6 +15,39 @@
 %
 
 
+@techreport{Feldmann2021a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2021,
+  month = {11 September},
+  title = {{F1}: A Fast and Programmable Accelerator for Fully Homomorphic
+    Encryption (Extended Version)},
+  author = {Feldmann, Axel and Samardzic, Nikola and Krastev, Aleksandar
+    and Devadas, Srini and Dreslinski, Ron and Eldefrawy, Karim
+    and Genise, Nicholas and Peikert, Christopher and Sanchez, Daniel},
+  abstract = {Fully Homomorphic Encryption (FHE) allows computing on encrypted
+    data, enabling secure offloading of computation to untrusted serves. Though
+    it provides ideal security, FHE is expensive when executed in software, 4
+    to 5 orders of magnitude slower than computing on unencrypted data. These
+    overheads are a major barrier to FHE's widespread adoption. We present F1,
+    the first FHE accelerator that is programmable, i.e., capable of executing
+    full FHE programs. F1 builds on an in-depth architectural analysis of the
+    characteristics of FHE computations that reveals acceleration
+    opportunities. F1 is a wide-vector processor with novel functional units
+    deeply specialized to FHE primitives, such as modular arithmetic,
+    number-theoretic transforms, and structured permutations. This organization
+    provides so much compute throughput that data movement becomes the
+    bottleneck. Thus, F1 is primarily designed to minimize data movement. The
+    F1 hardware provides an explicitly managed memory hierarchy and mechanisms
+    to decouple data movement from execution. A novel compiler leverages these
+    mechanisms to maximize reuse and schedule off-chip and on-chip data
+    movement. We evaluate F1 using cycle-accurate simulations and RTL
+    synthesis. F1 is the first system to accelerate complete FHE programs and
+    outperforms state-of-the-art software implementations by gmean 5400x and by
+    up to 17000x. These speedups counter most of FHE's overheads and enable new
+    applications, like real-time private deep learning in the cloud.},
+  number = {arXiv:2109.05371 [cs.CR]}
+}
 
 @article{Ducassi2021a,
   year = 2021,
