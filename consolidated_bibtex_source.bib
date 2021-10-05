@@ -16,6 +16,34 @@
 
 
 
+@techreport{Guri2021c,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2021,
+  month = {30 September},
+  title = {{\textbf{LAN}TENNA}: Exfiltrating Data from Air-Gapped Networks via
+    {Ethernet} Cables},
+  author = {Guri, Mordechai},
+  abstract = {Air-gapped networks are wired with Ethernet cables since wireless
+    connections are strictly prohibited.
+
+    In this paper we present LANTENNA---a new type of electromagnetic attack
+    allowing adversaries to leak sensitive data from isolated, air-gapped
+    networks. Malicious code in air-gapped computers gathers sensitive data
+    and then encodes it over radio waves emanating from the Ethernet cables,
+    using them as antennas. A nearby receiving device can intercept the signals
+    wirelessly, decode the data, and send it to the attacker. We discuss the
+    exfiltration techniques, examine the covert channel characteristics, and
+    provide implementation details. Notably, the malicious code can run in an
+    ordinary user-mode process and successfully operate from within a virtual
+    machine. We evaluate the covert channel in different scenarios and present
+    a set of countermeasures. Our experiments show that with the LANTENNA
+    attack, data can be exfiltrated from air-gapped computers to a distance of
+    several meters away.},
+  cites = {Cited by \cite{Lakshmanan2021a}; see also \cite{Guri2021b} for the
+    published version},
+}
+
 @article{Lakshmanan2021a,
   title = {Creating Wireless Signals with Ethernet Cable to Steal Data from
     Air-Gapped Systems},
@@ -1559,7 +1587,8 @@ number = {arXiv:2109.10839 [cs.CR]},
     present a set of of countermeasures. Our experiments show that with the
     LANTENNA attack, data can be exfiltrated from air-gapped computers to a
     distance of several meters away.},
-  cites = {Cites \cite{Loughry2002a}; cited by \cite{Lakshmanan2021a}},
+  cites = {Cites \cite{Loughry2002a}; cited by \cite{Lakshmanan2021a}; see also
+    \cite{Guri2021c}},
   month = {12--16 July},
   pages = {745--754},
 }
