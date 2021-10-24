@@ -1,0 +1,400 @@
+% 3456789012345678901234567890123456789012345678901234567890123456789012345678
+%        1         2         3         4         5         6         7
+%
+% Format: BibTeX
+%
+% 20061026 (rjl) initial version
+% 20070102 (rjl) letter to comlab.ox.ac.uk accepting admission
+% 20071205.0928 (rjl) This is all of the BibTeX entries in the world.
+%
+% Joe Loughry's Consolidated BibTeX File.
+%
+% Note: if you get errors, try "make clean" first.
+%
+% TODO: begin entering author names here as Last, First instead.
+%
+
+
+
+@article{Cramer2021a,
+  journal = {Politico},
+  year = 2021,
+  month = {18 October},
+  title = {`{His} Street Cred Went Up': The Unintended Consequences of Outing
+    the {GOP} Lawmakers at {Jan.}\ 6},
+  author = {Cramer, Ruby},
+  note = {\url{https://www.politico.com/news/magazine/2021/10/18/democrats-outing-republican-lawmakers-january-6-insurrection-516109}},
+}
+
+@article{Berger2021a,
+  title = {A woman won a million-euro {Spanish} literary prize. {It} turned out
+    that `she' was actually three men.},
+  year = 2021,
+  month = {17 October},
+  author = {Berger, Miriam},
+  note = {\url{https://www.washingtonpost.com/world/2021/10/17/carmen-mola-spain-gender-reveal-female-writer-three-men/}},
+  journal = {Washington Post},
+}
+
+@article{Chayka2021a,
+  year = 2021,
+  month = {15 October},
+  title = {{Raya} and the promise of private social media},
+  author = {Chayka, Kyle},
+  journal = {The New Yorker},
+  note = {\url\{https://www.newyorker.com/culture/infinite-scroll/raya-and-the-promise-of-private-social-media}},
+}
+
+@techreport{King2021a,
+  cites = {Cited by \cite{Siler2021a}},
+  institution = {Cold Spring Harbor laboratory, Yale University},
+  type = {medRxiv preprint},
+  year = 2021,
+  month = {26 August},
+  title = {Time trends, factors associated with, and reasons for {COVID-19}
+    vaccine hesitancy in {US} adults: {January--May} 2021},
+  author = {King, Wendy C and Rubinstein, Max and Reinhart, Alex
+    and Mejia, Robin J.},
+  doi = {10.1101/2021.07.20.21260795},
+  abstract = {\textbf{Importance} COVID-19 vaccine hesitancy has become a
+    leading barrier to increasing the US vaccination rate.
+
+    \textbf{Objective} To evaluate time trends in COVID-19 vaccine intent
+    during the US vaccine rollout, and identify key factors related to and
+    self-reported reasons for COVID-19 vaccine hesitancy in May 2021.
+
+    \textbf{Design, Participants and Setting} A COVID-19 survey was offered to
+    US adult Facebook users in several languages yielding 5,088,772 qualifying
+    responses from January 6 to May 31, 2021. Data was aggregated by month.
+    Survey weights matched the sample to the age, gender, and state profile of
+    the US population.
+
+    \textbf{Exposure} Demographics, geographic factors, political/COVID-19
+    environment, health status, beliefs, and behaviors.
+
+    \textbf{Main Outcome Measures} ``If a vaccine to prevent COVID-19 were
+    offered to you today, would you choose to get vaccinated.'' Hesitant was
+    defined as responding, probably or definitely would not choose to get
+    vaccinated (versus probably or definitely would, or already vaccinated).
+
+    \textbf{Results} COVID-19 vaccine hesitancy decreased by one-third from
+    25.4\% (95\%CI, 25.3, 25.5) in January to 16.6\% (95\%CI, 16.4, 16.7) in
+    May, with relatively large decreases among participants with Black, Pacific
+    Islander or Hispanic race/ethnicity and $\le$ high school education.
+    Independent risk factors for vaccine hesitancy in May ($N=525,644$)
+    included younger age, non-Asian race, $<4$ year college degree, living in a
+    more rural county, living in a county with higher Trump vote share in the
+    2020 election, lack of worry about COVID-19, working outside the home,
+    never intentionally avoiding contact with others, and no past-year flu
+    vaccine. Differences in hesitancy by race/ethnicity varied by age (e.g.,
+    Black adults more hesitant than White adults $<35$ years old, but less
+    hesitant among adults $\ge$45 years old), and vice versa. Almost half of
+    vaccine hesitant respondents reported fear of side effects (49.2\% [95\%CI,
+    48.7, 49.7]) and not trusting the COVID-19 vaccine (48.4\% [95\%CI, 48.0,
+    48.9]); over one-third reported not trusting the government, not needing
+    the vaccine, and waiting to see if safe. Reasons differed by degree of
+    vaccine intent and by race/ethnicity.
+
+    Conclusion COVID-19 vaccine hesitancy varied by demographics, geography,
+    beliefs, and behaviors, indicating a need for a range of messaging and
+    policy options to target high-hesitancy groups.},
+}
+
+@article{Siler2021a,
+  month = {16 October},
+  year = 2021,
+  title = {The Unvaccinated Are Looking Smarter Every Week},
+  author = {Siler, Thomas T.},
+  journal = {American Thinker},
+  note = {\url{https://www.americanthinker.com/articles/2021/10/the_unvaccinated_are_looking_smarter_every_week.html}},
+  cites = {Cites \cite{King2021a}},
+}
+
+@article{Stewart2021b,
+  journal = {Vox},
+  year = 2021,
+  author = {Stewart, Emily},
+  title = {The problem with {America's} semi-rich},
+  note = {\url{https://www.vox.com/the-goods/22673605/upper-middle-class-meritocracy-matthew-stewart}},
+  month = {12 October},
+}
+
+@article{Spinney2021a,
+  author = {Spinney, Laura},
+  title = {Epigenetics, the misunderstood science that could shed new light on
+    ageing},
+  year = 2021,
+  journal = {The Guardian},
+  month = {10 October},
+  note = {\url{https://www.theguardian.com/science/2021/oct/10/epigenetics-the-misunderstood-science-that-could-shed-new-light-on-ageing}},
+}
+
+@article{Palmer2021b,
+  author = {Palmer, Ewan},
+  title = {{MAGA} Supporters Left Confused by {Donald Trump's} Call Not to Vote
+    in Midterms, 2024},
+  year = 2021,
+  journal = {Newsweek},
+  month = {15 October},
+  note = {\url{https://www.newsweek.com/maga-supporters-confused-donald-trump-vote-2024-election-qanon-midterms-1639286}},
+}
+
+@article{Coppins2021a,
+  journal = {The Atlantic},
+  year = 2021,
+  month = {14 October},
+  title = {a secretive hedge fund is gutting newsrooms},
+  author = {Coppins, McKay},
+  note = {\url{https://www.theatlantic.com/magazine/archive/2021/11/alden-global-capital-killing-americas-newspapers/620171/}},
+}
+
+@misc{Longnickel2018a,
+  title = {Making a braille translator},
+  author = {Longnickel, Maryna},
+  month = {25 December},
+  year = 2018,
+  note = {\url{https://medium.com/@MarynaL/making-a-braille-translator-3f55521330e2}},
+}
+
+@article{Zhang2018g,
+  author = {Zhang, Haimei and Belvina, Carina and Li, Wanyi and Wang, Jennifer
+    and Wainwright, Julia and Berg, Robbie and Bridger, Joshua},
+  year = 2018,
+  title = {Little bits of diamond: Optically detected magnetic resonance of
+    nitrogen-vacancy centers},
+  journal = {American Journal of Physics},
+  volume = 86,
+  pages = 225,
+  doi = {10.1119/1.5023389},
+  abstract = {We give instructions for the construction and operation of a
+    simple apparatus for performing optically detected magnetic resonance
+    measurements on diamond samples containing high concentrations of
+    nitrogen-vacancy (NV) centers. Each NV center has a spin degree of freedom
+    that can be manipulated and monitored by a combination of visible and
+    microwave radiation. We observe Zeeman shifts in the presence of small
+    external magnetic fields and describe a simple method to optically measure
+    magnetic field strengths with a spatial resolution of several microns. The
+    activities described are suitable for use in an advanced undergraduate lab
+    course, powerfully connecting core quantum concepts to cutting edge
+    applications. An even simpler setup, appropriate for use in more
+    introductory settings, is also presented.},
+}
+
+@article{Markham2020a,
+  author = {Markham, Matthew and Twitchen, Daniel},
+  title = {The diamond quantum revolution},
+  journal = {Physics World},
+  month = {April},
+  note = {\url{https://physicsworld.com/a/the-diamond-quantum%E2%80%AFrevolution/}},
+  volume = 33,
+  number = 4,
+  pages = 39,
+  doi = {10.1088/2058-7058/33/4/31},
+  year = 2020,
+}
+
+@article{Miller1990a,
+  author = {Miller, Barton P. and Fredriksen, Lars and So, Bryan},
+  month = {December},
+  year = 1990,
+  title = {An Empirical Study of the Reliability of {UNIX} Utilities},
+  journal = {Communications of the ACM},
+  volume = 33,
+  number = 12,
+  doi = {10.1145/96267.96279},
+  pages = {32--44},
+}
+
+@article{Hwang2021a,
+  title = {Forget {JPEG}, How Would a Person Compress a Picture?},
+  author = {Hwang, Irena and Chandak, Shubham and Tatwawadi, Kedar
+    and Weissman, Tsachy},
+  month = {6 October},
+  year = 2021,
+  journal = {IEEE Spectrum},
+  note = {\url{https://spectrum.ieee.org/forget-jpeg-how-would-a-person-compress-a-picture}},
+}
+
+@article{Kessler2021c,
+  title = {{T}rump's never-ending parade of election falsehoods},
+  year = 2021,
+  month = {},
+  journal = {Washington Post},
+  author = {Kessler, Glenn},
+  note = {\url{https://www.washingtonpost.com/politics/2021/10/12/trumps-never-ending-parade-election-falsehoods/}},
+}
+
+@misc{Bennet2019a,
+  title = {Struggling Braille Readers Can Improve Their Tactile Skills with
+    these 10 Tips},
+  author = {Bennet, Chloe},
+  month = {19 March},
+  year = 2019,
+  note = {\url{https://www.perkinselearning.org/technology/blog/struggling-braille-readers-can-improve-their-tactile-skills-these-10-tips}},
+}
+
+@article{Timsit2021a,
+  title = {{Texas}-based airlines brush off {Gov.\ Abbott}'s ban on vaccine
+    mandate},
+  year = 2021,
+  journal = {Washington Post},
+  month = {13 October},
+  author = {Timsit, nnabelle and Jeong, Andrew},
+  note = {\url{https://www.washingtonpost.com/transportation/2021/10/13/southwest-american-airlines-texas-vaccine-mandate-ban/}},
+}
+
+@article{Littwin2021e,
+  title = {{Littwin}: If only the strange case of {Mesa County Clerk}
+    {Tina Peters} actually was strange},
+  year = 2021,
+  month = {13 October},
+  journal = {Colorado Sun},
+  note = {\url{https://coloradosun.com/2021/10/13/tina-peters-mesa-county-election-opinion-littwin/}},
+  author = {Littwin, Mike},
+}
+
+@article{Marks2016a,
+  title = {Before {Braille} Was King, It Had to Win the War of the Dots},
+  year = 2016,
+  month = {4 March},
+  note = {\url{https://www.collectorsweekly.com/articles/before-braille-was-king/}},
+  journal = {Collectors Weekly},
+  author = {Marks, Ben},
+}
+
+@article{Paul2021j,
+  title = {{Navy} nuclear engineer, wife who allegedly tried to pass submarine
+    secrets worked as high school teachers in {Colorado}},
+  author = {Paul, Jesse},
+  journal = {Colorado Sun},
+  year = 2021,
+  month = {11 October},
+  note = {\url{https://coloradosun.com/2021/10/11/jonathan-toebbe-diana-kent-denver/}},
+}
+
+@article{Lofholm2021b,
+  title = {Tempers flare at {Mesa County} protest as judge prepares to decide
+    {Tina Peters}' role in upcoming election},
+  author = {Lofholm, Nancy},
+  journal = {Colorado Sun},
+  year = 2021,
+  month = {11 October},
+  note = {\url{https://coloradosun.com/2021/10/11/tina-peters-rally-mesa-county-election-fraud/}},
+}
+
+@article{DiResta2021a,
+  title = {It's Not Misinformation. {It's} Amplified Propaganda.},
+  author = {DiResta, Ren\'{e}e},
+  year = 2021,
+  journal = {The Atlantic},
+  note = {\url{https://www.theatlantic.com/ideas/archive/2021/10/disinformation-propaganda-amplification-ampliganda/620334/}},
+  month = {9 October},
+}
+
+@article{Haroun2021a,
+  journal = {Business Insider},
+  year = 2021,
+  title = {No {House Republican} voted to raise the {US} debt ceiling},
+  author = {Haroun, Azmi and Joseph Zeballos-Roig, Joseph},
+  month = {12 October},
+  note = {This article appeared in my news feed with the alternative title
+    `All 206 House Republicans voted for the US to default on debt'; \url{https://www.businessinsider.com/all-house-republicans-voted-for-us-to-default-on-debt-2021-10}},
+}
+
+@article{Bernstein2021a,
+  title = {The 2020 Election Was Nothing Like {Bush--Gore}},
+  author = {Bernstein, Jonathan},
+  journal = {Bloomberg},
+  year = 2021,
+  month = {11 October},
+  note = {\url{https://www.bloomberg.com/opinion/articles/2021-10-11/the-2020-election-was-nothing-like-bush-gore}},
+}
+
+@article{Knight2021a,
+  title = {Black Children Were Jailed for a Crime That Doesn’t Exist. {Almost}
+    Nothing Happened to the Adults in Charge.},
+  year = 2021,
+  journal = {ProPublica},
+  month = {8 October},
+  note = {\url{https://www.propublica.org/article/black-children-were-jailed-for-a-crime-that-doesnt-exist}},
+  author = {Knight, Meribah and Armstrong, Ken},
+}
+
+@article{Schmidt2021b,
+  title = {White Tiger and Cheetah Furs: A Mess of {T}rump Gift Exchanges},
+  author = {Schmidt, Michael S.},
+  journal = {New York Times},
+  year = 2021,
+  month = {11 October},
+  note = {\url{https://www.nytimes.com/2021/10/11/us/politics/trump-gifts.html}},
+}
+
+@techreport{Zhou2021a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2021,
+  month = {7 October},
+  title = {{DoubleStar}: Long-Range Attack Towards Depth Estimation based
+    Obstacle Avoidance in Autonomous Systems},
+  author = {Zhou, Ce and Yan, Qiben and Shi, Yan and Sun, Lichao},
+  abstract = {Depth estimation-based obstacle avoidance has been widely
+    adopted by autonomous systems (drones and vehicles) for safety purpose. It
+    normally relies on a stereo camera to automatically detect obstacles and
+    make flying/driving decisions, e.g., stopping several meters ahead of the
+    obstacle in the path or moving away from the detected obstacle. In this
+    paper, we explore new security risks associated with the stereo
+    vision-based depth estimation algorithms used for obstacle avoidance. By
+    exploiting the weaknesses of the stereo matching in depth estimation
+    algorithms and the lens flare effect in optical imaging, we propose
+    DoubleStar, a long-range attack that injects fake obstacle depth by
+    projecting pure light from two complementary light sources.
+
+    DoubleStar includes two distinctive attack formats: beams attack and orbs
+    attack, which leverage projected light beams and lens flare orbs
+    respectively to cause false depth perception. We successfully attack two
+    commercial stereo cameras designed for autonomous systems (ZED and Intel
+    RealSense). The visualization of fake depth perceived by the stereo cameras
+    illustrates the false stereo matching induced by DoubleStar. We further use
+    Ardupilot to simulate the attack and demonstrate its impact on drones. To
+    validate the attack on real systems, we perform a real-world attack towards
+    a commercial drone equipped with state-of-the-art obstacle avoidance
+    algorithms. Our attack can continuously bring a flying drone to a sudden
+    stop or drift it away across a long distance under various lighting
+    conditions, even bypassing sensor fusion mechanisms. Specifically, our
+    experimental results show that DoubleStar creates fake depth up to 15
+    meters in distance at night and up to 8 meters during the daytime. To
+    mitigate this newly discovered threat, we provide discussions on potential
+    countermeasures to defend against DoubleStar.},
+  number = {arXiv:2110.03154 [cs.CR]}},
+}
+
+@article{Keith2021a,
+  title = {`Enjoy it': {Fauci} says it's safe for {Americans} and their
+    children to trick or treat on {Halloween}},
+  year = 2021,
+  author = {Keith, Morgan},
+  month = {10 October},
+  note = {\url{https://www.businessinsider.com/fauci-guidance-trick-or-treat-celebrate-halloween-covid-coronavirus-mask-2021-10}},
+  journal = {Insider},
+}
+
+@article{Paul2021i,
+  journal = {Washington Post},
+  year = 2021,
+  month = {10 October},
+  title = {Amid drop in covid rates, {Fauci} encourages trick-or-treating and
+    says `enjoy {Halloween}'},
+  note = {\url{https://www.washingtonpost.com/nation/2021/10/10/fauci-halloween-trick-or-treat/}},
+  author = {Pa\'{u}l, Mar\'{i}a Luisa},
+}
+
+@article{Monbiot2021a,
+  journal = {The Guardian},
+  year = 2021,
+  title = {Trashing the planet and hiding the money isn't a perversion of
+    capitalism. {It} is capitalism},
+  author = {Monbiot, George},
+  month = {6 October},
+  note = {\url{https://www.theguardian.com/commentisfree/2021/oct/06/offshoring-wealth-capitalism-pandora-papers}},
+}
+

@@ -16,6 +16,26 @@
 
 
 
+@article{AAAA_test0001,
+  year = 1,
+  author = {AAAAAAAAA, AAA},
+  title = {All {A}'s},
+  journal = {Journal of Whatever},
+  volume = 1,
+  number = 1,
+  cites = {Cites \cite{Chayka2021b}},
+  note = {Cites \cite{Loughry2002a}},
+}
+
+@article{Chayka2021b,
+  author = {Chayka, Kyle},
+  title = {{Raya} and the promise of private social media},
+  year = 2021,
+  month = {15 October},
+  journal = {The New Yorker},
+  note = {\url{https://www.newyorker.com/culture/infinite-scroll/raya-and-the-promise-of-private-social-media}},
+}
+
 @article{Berger2021a,
   title = {A woman won a million-euro {Spanish} literary prize. {It} turned out
     that `she' was actually three men.},
@@ -26,17 +46,7 @@
   journal = {Washington Post},
 }
 
-@article{Chayka2021a,
-  year = 2021,
-  month = {15 October},
-  title = {{Raya} and the promise of private social media},
-  author = {Chayka, Kyle},
-  journal = {The New Yorker},
-  note = {\url\{https://www.newyorker.com/culture/infinite-scroll/raya-and-the-promise-of-private-social-media}},
-}
-
 @techreport{King2021a,
-  cites = {Cited by \cite{Siler2021a}},
   institution = {Cold Spring Harbor laboratory, Yale University},
   type = {medRxiv preprint},
   year = 2021,
@@ -88,6 +98,7 @@
     Conclusion COVID-19 vaccine hesitancy varied by demographics, geography,
     beliefs, and behaviors, indicating a need for a range of messaging and
     policy options to target high-hesitancy groups.},
+  cites = {Cited by \cite{Siler2021a}},
 }
 
 @article{Siler2021a,
@@ -540,7 +551,7 @@
 }
 
 @article{Meltzer2021b,
-  cites = {Cited by \cite{}Meltzer2021a},
+  cites = {Cited by \cite{Meltzer2021a}},
   author = {Meltzer, Erica},
   journal = {Chalkbeat},
   year = 2021,
@@ -2195,6 +2206,7 @@ number = {arXiv:2109.10839 [cs.CR]},
     Contracts},
   author = {Babel, Kushal and Daian, Philip and Kelkar, Mahimna
     and Juels, Ari},
+  number = {arXiv:2109.04347 [cs.CR]},
   abstract = {We introduce the Clockwork Finance Framework (CFF), a general
     purpose, formal verification framework for mechanized reasoning about the
     economic security properties of composed decentralized-finance (DeFi) smart
@@ -2226,9 +2238,8 @@ number = {arXiv:2109.10839 [cs.CR]},
     of August 2021. We uses these models to show experimentally that CFF is
     practical and can drive useful, data-based EV-based insights from real
     world transaction activity. Without any explicitly programmed attack
-    strategies, CFF uncovers on average an expected $56 million of EV per month
-    in the recent past.},
-  number = {arXiv:2109.04347 [cs.CR]},
+    strategies, CFF uncovers on average an expected \$56 million of EV per
+    month in the recent past.},
 }
 
 @article{Murphy2021b,
@@ -2401,7 +2412,7 @@ number = {arXiv:2109.10839 [cs.CR]},
   type = {preprint},
   number = {100956},
   doi = {10.21203/rs.3.rs-100956/v3},
-  cites = {Cited by \cite{Brown2021d, Lawrence2021a}},
+  cites = {Cited by \cite{Brown2021d,Lawrence2021a}},
 }
 
 @misc{Brown2021d,
@@ -4129,7 +4140,7 @@ number = {arXiv:2109.10839 [cs.CR]},
 }
 
 @article{Bump2020a,
-  cites = {Cited by \cite{Bump2021b}; cites \citei[Appendix A]{SCOTUS2020a},
+  cites = {Cited by \cite{Bump2021b}; cites \cite[Appendix A]{SCOTUS2020a},
     citing \cite{Cicchetti2020a}},
   title = {{T}rump's effort to steal the election comes down to some utterly
     ridiculous statistical claims},
@@ -10635,7 +10646,7 @@ number = {arXiv:2109.10839 [cs.CR]},
     to solve a problem rather than take things away},
   note = {\url{https://www.theregister.com/2021/04/09/people_complicate_things/}},
   author = {Clark, Lindsay},
-  cites = {Cites \citer{Adams2021a}},
+  cites = {Cites \cite{Adams2021a}},
 }
 
 @article{Adams2021a,
@@ -15026,7 +15037,7 @@ number = {arXiv:2109.10839 [cs.CR]},
 }
 
 @misc{Shirriff2017a,
-  cites = {Cited by \citeList2017a},
+  cites = {Cited by \cite{List2017a}},
   author = {Shirriff, Ken},
   title = {Inside the vintage 74181 {ALU} chip: how it works and why it's so
     strange},
@@ -29649,7 +29660,7 @@ number = {arXiv:2109.10839 [cs.CR]},
   journal = {IEEE Spectrum},
   note = {\url{https://spectrum.ieee.org/tech-history/silicon-revolution/the-surprising-story-of-the-first-microprocessors}},
   month = {30 August},
-  cites = {Cited by \citer{Cass2018d}},
+  cites = {Cited by \cite{Cass2018d}},
 }
 
 @article{Mathis-Lilley2020,
@@ -91077,15 +91088,15 @@ note = {I had to add this note to get it to compile.}
 	address = {New York},
 }
 
-@inproceedings{Checkoway2011,
-	author = {Stephen Checkoway and Damon McCoy and Brian Kantor and Danny Anderson and
-		Hovav Shacham and Stefan Savage and Karl Koscher and Alexi Czeskis and
-		Franziska Roesner and Tadayohi Kohno},
-	title = {Comprehensive Experimental Analyses of Automotive Attack Surfaces},
-	booktitle = {20th {USENIX} Security Symposium},
-	address = {San Francisco, California},
-	month = {August 8--12,},
-	year = 2011,
+@inproceedings{Checkoway2011b,
+  author = {Checkoway, Stephen and McCoy, Damon and Kantor, Brian
+    and Anderson, Danny and Shacham Hovav and Savage, Stefan and Koscher, Karl
+    and Czeskis, Alexi and Roesner, Franziscka and Kohno, Tadayohi},
+  title = {Comprehensive Experimental Analysis of Automotive Attack Surfaces},
+  booktitle = {20th {USENIX} Security Symposium},
+  year = 2011,
+  month = {8--12 August},
+  address = {San Francisco, California},
 }
 
 @misc{Garamone2011,
