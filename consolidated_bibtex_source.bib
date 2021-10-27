@@ -16,6 +16,61 @@
 
 
 
+@phdthesis{Giechaskiel2019a,
+  year = 2019,
+  school = {University of Oxford},
+  title = {Leaky hardware: modeling and exploiting imperfections in embedded
+    devices},
+  author = {Giechaskiel, I},
+  abstract = {Embedded systems are found in many safety- and security-critical
+    applications, and bring aspects of the physical world to the digital one
+    and vice versa. However, imperfections in this hardware bridge can break
+    the integrity of sensor inputs into an embedded device, causing it to act
+    upon the wrong data. For instance, malicious electromagnetic transmissions
+    can trick systems into inducing defibrillation shocks and raising the
+    temperature of infant incubators, both with potentially severe health
+    consequences.
+
+    Unfortunately, such attacks which alter sensor outputs without changing the
+    property being measured itself have so far only been studied in an ad-hoc
+    manner. In my thesis, I address this shortcoming in two ways. First, I
+    create a taxonomy of these “out-of-band” signal injection attacks and
+    defenses. Second, I propose a framework that quantifies security in their
+    context through a system model, mathematical definitions, and an algorithm
+    that can compare the “security level” of off-the-shelf systems.
+
+    In my thesis, I also investigate Field-Programmable Gate Arrays (FPGAs),
+    which are available on public cloud infrastructures, and are also
+    integrated in many consumer end-products, such as smartphones and laptops.
+    As FPGAs are often used in sensitive applications, including genome
+    processing, cryptography, and financial modeling, it is necessary to ensure
+    that they can maintain the secrecy of the data that they process.
+
+    However, the confidentiality of FPGA data can be broken, as I demonstrate
+    through three new sources of information leakage due to hardware
+    imperfections. The first source exists between “long wires” within seven
+    families of Xilinx FPGAs. I explain how to exploit long-wire leakage for
+    covert- and side-channel attacks, both locally, and on two commercial FPGA
+    clouds through novel ring oscillators structures that bypass
+    currently-deployed countermeasures.
+
+    The second source of leakage operates even when different FPGA users are
+    isolated to distinct dies of the same chip. These unintended interactions
+    demonstrate that current FPGA architectures are not well-suited for
+    multi-tenancy, despite the physical isolation of user logic. Finally, I
+    show that assigning dedicated FPGAs to different users is still not enough
+    to prevent cross-FPGA communication: shared Power Supply Units (PSUs) leak
+    information between physically distinct FPGA, CPU, and GPU boards, which
+    can be detected via means of a novel receiver design and classification
+    metric.
+
+    Overall, in my thesis, I highlight that the underlying electrical
+    properties of embedded devices often fall short of protecting the integrity
+    and the confidentiality of the data that they process, and allow remote
+    attackers to spoof sensor measurements or infer cryptographic keys and
+    other types of data.},
+}
+
 @article{Pasricha2021a,
   title = {How Scrubs Reinforce Sexist Double Standards},
   journal = {The Atlantic},
