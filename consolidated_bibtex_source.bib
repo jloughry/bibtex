@@ -16,6 +16,32 @@
 
 
 
+@inproceedings{Stievenart2022a,
+  title = {Security Risks of Porting {C} Programs to {WebAssembly}},
+  author = {Sti\'{e}venart, Quentin and De Roover, Coen and Ghafari, Mohammad},
+  abstract = {WebAssembly is a compilation target for cross-platform
+    applications that is increasingly being used. In this paper, we investigate
+    whether one can transparently cross-compile C programs to WebAssembly, and
+    if not, what impact porting can have on their security. We compile 17,802
+    programs that exhibit common vulnerabilities to 64-bit x86 and to
+    WebAssembly binaries, and we observe that the execution of 4,911 binaries
+    produces different results across these platforms. Through manual
+    inspection, we identify three classes of root causes for such differences:
+    the use of a different standard library implementation, the lack of
+    security measures in WebAssembly, and the different semantics of the
+    execution environments. We describe our observations and discuss the ones
+    that are critical from a security point of view and need most attention
+    from developers. We conclude that compiling an existing C program to
+    WebAssembly for cross-platform distribution may require source code
+    adaptations; otherwise, the security of the WebAssembly application may be
+    at risk.},
+  month = {25--29 April},
+  address = {Virtual},
+  booktitle = {37th {ACM/SIGAPP} Symposium on Applied Computing ({SAC'22})},
+  year = 2022,
+  doi = {10.1145/3477314.3507308},
+}
+
 @article{Pilcher2003a,
   author = {Pilcher, Helen R.},
   title = {It's a knockout},
