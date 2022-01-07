@@ -16,6 +16,32 @@
 
 
 
+@techreport{Quan2021a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2021,
+  month = {15 December},
+  author = {Quan, Nguyen Thoi Minh},
+  title = {00},
+  abstract = {What is the funniest number in cryptography (Episode 2)? 0 [1].
+    The reason is that $\forall x,x\cdot 0=0$, i.e., the equation is satisfied
+    no matter what $x$ is. We'll use zero to attack zero-knowledge proof (ZKP).
+    In particular, we'll discuss a critical issue in a cutting-edge ZKP PLONK
+    [2] C++ implementation which allows an attacker to create a forged proof
+    that all verifiers will accept. We'll show how theory guides the attack's
+    direction. In practice, the attack works like a charm and we'll show how
+    the attack falls through a chain of perfectly aligned software cracks. In
+    the same codebase, there is an independent critical ECDSA bug where
+    $(r, s) = (0, 0)$ is a valid signature for arbitrary keys and messages, but
+    we won't discuss it further because it's a known ECDSA attack vector in the
+    Google Wycheproof cryptanalysis project [3] that I worked on a few years
+    ago.
+
+    All bugs have been responsibly disclosed through the vendor's bug bounty
+    program with total reward $\sim\$15,000$ (thank you).},
+  number = {arXiv:2201.00815 [cs.CR]},
+}
+
 @article{BBC2022a,
   author = {{BBC News}},
   title = {{Covid: French} uproar as {Macron} vows to `piss off' unvaccinated},
