@@ -16,7 +16,28 @@
 
 
 
+@techreport{Nguyen2021c,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2021,
+  month = {15 December},
+  title = {0},
+  author = {Nguyen, Quan Thoi Minh},
+  abstract = {What is the funniest number in cryptography? 0. The reason is
+    that for all $x$, $x*0 = 0$, i.e., the equation is always satisfied no
+    matter what $x$ is. This article discusses crypto bugs in four BLS
+    signatures' libraries (ethereum/py ecc, supranational/blst, herumi/bls,
+    sigp/milagro bls) that revolve around 0. Furthermore, we develop
+    ``splitting zero'' attacks to show a weakness in the proof-of-possession
+    aggregate signature scheme standardized in BLS RFC draft v4. Eth2 bug
+    bounties program generously awarded \$35,000 in total for the reported
+    bugs.},
+  number = {arXiv:2104.12255 [cs.CR]},
+  cites = {Cited by \cite{Quan2021a}},
+}
+
 @techreport{Quan2021a,
+  cites = {Cites \cite{Nguyen2021c}},
   institution = {Cornell University},
   type = {arXiv preprint},
   year = 2021,
