@@ -16,6 +16,34 @@
 
 
 
+@techreport{Rhode2022a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {12 January},
+  year = 2022,
+  title = {Real-time malware process detection and automated process killing},
+  author = {Rhode, Matilda and Burnap, Pete and Wedgbury, Adam},
+  abstract = {Perimeter-based detection is no longer sufficient for mitigating
+    the threat posed by malicious software. This is evident as antivirus (AV)
+    products are replaced by endpoint detection and response (EDR) products,
+    the latter allowing visibility into live machine activity rather than
+    relying on the AV to filter out malicious artefacts. This paper argues that
+    detecting malware in real-time on an endpoint necessitates an automated
+    response due to the rapid and destructive nature of some malware.
+
+    The proposed model uses statistical filtering on top of a machine learning
+    dynamic behavioural malware detection model in order to detect individual
+    malicious processes on the fly and kill those which are deemed malicious.
+    In an experiment to measure the tangible impact of this system, we find
+    that fast-acting ransomware is prevented from corrupting 92\% of files with
+    a false positive rate of 14\%. Whilst the false-positive rate currently
+    remains too high to adopt this approach as-is, these initial results
+    demonstrate the need for a detection model which is able to act within
+    seconds of the malware execution beginning; a timescale that has not been
+    addressed by previous work.},
+  number = {arXiv:1902.02598 [cs.CR]},
+}
+
 @techreport{Ganzfried2022a,
   institution = {Cornell University},
   type = {arXiv preprint},
