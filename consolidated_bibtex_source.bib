@@ -16,6 +16,38 @@
 
 
 
+@techreport{Rogers2022a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {17 January},
+  year = 2022,
+  title = {Silently Disabling {ECUs} and Enabling Blind Attacks on the
+    {CAN Bus}},
+  author = {Rogers, Matthew and Rasmussen, Kasper},
+  abstract = {The CAN Bus is crucial to the efficiency, and safety of modern
+    vehicle infrastructure. Electronic Control Units (ECUs) exchange data
+    across a shared bus, dropping messages whenever errors occur. If an ECU
+    generates enough errors, their transmitter is put in a bus-off state,
+    turning it off. Previous work abuses this process to disable ECUs, but is
+    trivial to detect through the multiple errors transmitted over the bus. We
+    propose a novel attack, undetectable by prior intrusion detection systems,
+    which disables ECUs within a single message without generating any errors
+    on the bus. Performing this attack requires the ability to flip bits on the
+    bus, but not with any level of sophistication. We show that an attacker who
+    can only flip bits 40\% of the time can execute our stealthy attack 100\%
+    of the time. But this attack, and all prior CAN attacks, rely on the
+    ability to read the bus. We propose a new technique which synchronizes the
+    bus, such that even a blind attacker, incapable of reading the bus, can
+    know when to transmit. Taking a limited attacker's chance of success from
+    the percentage of dead bus time, to 100\%. Finally, we propose a small
+    modification to the CAN error process to ensure an ECU cannot fail without
+    being detected, no matter how advanced the attacker is. Taken together we
+    advance the state of the art for CAN attacks and blind attackers, while
+    proposing a detection system against stealthy attacks, and the larger
+    problem of CAN's abusable error frames.},
+  number = {arXiv:2201.06362 [cs.CR]},
+}
+
 @article{Hatley2021a,
   title = {Engineering Your Career, Part 2: Licensing},
   journal = {Machine Design},
