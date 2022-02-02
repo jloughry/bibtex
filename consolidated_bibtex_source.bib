@@ -16,6 +16,33 @@
 
 
 
+@techreport{Pecka2022a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {30 January},
+  year = 2022,
+  title = {Making Secure Software Insecure without Changing Its Code: The
+    Possibilities and Impacts of Attacks on the {DevOps} Pipeline},
+  author = {Pecka, Nicholas and ben Othmane, Lotfi and Valani, Altaz},
+  abstract = {Companies are misled into thinking they solve their security
+    issues by using a DevSecOps system. This paper aims to answer the question:
+    Could a DevOps pipeline be misused to transform a securely developed
+    application into an insecure one? To answer the question, we designed a
+    typical DevOps pipeline utilizing Kubernetes (K8s) as a case study
+    environment and analyzed the applicable threats. Then, we developed four
+    attack scenarios against the case study environment: maliciously abusing
+    the user's privilege of deploying containers within the K8s cluster,
+    abusing the Jenkins instance to modify files during the continuous
+    integration, delivery, and deployment systems (CI/CD) build phase,
+    modifying the K8s DNS layer to expose an internal IP to external traffic,
+    and elevating privileges from an account with create, read, update, and
+    delete (CRUD) privileges to root privileges. The attacks answer the
+    research question positively: companies should design and use a secure
+    DevOps pipeline and not expect that using a DevSecOps environment alone is
+    sufficient to deliver secure software.},
+  number = {arXiv:2201.12879 [cs.CR]},
+}
+
 @article{Krasnowski2022a,
   title = {Introducing a Novel Data over Voice Technique for Secure Voice
     Communication},
