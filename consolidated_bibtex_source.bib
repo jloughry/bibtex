@@ -16,6 +16,44 @@
 
 
 
+@techreport{Hoang2022a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {1 February},
+  year = 2022,
+  title = {Measuring the Accessibility of Domain Name Encryption and Its Impact
+    on Internet Filtering},
+  author = {Hoang, Nguyen Phong and Polychronakis, Michalis
+    and Gill, Phillipa},
+  abstract = {Most online communications rely on DNS to map domain names to
+    their hosting IP address(es). Previous work has shown that DNS-based
+    network interference is widespread due to the unencrypted and
+    unauthenticated nature of the original DNS protocol. In addition to DNS,
+    accessed domain names can also be monitored by on-path observers during the
+    TLS handshake when the SNI extension is used. These lingering issues with
+    exposed plaintext domain names have led to the development of a new
+    generation of protocols that keep accessed domain names hidden.
+    DNS-over-TLS (DoT) and DNS-over-HTTPS (DoH) hide the domain names of DNS
+    queries, while Encrypted Server Name Indication (ESNI) encrypts the domain
+    name in the SNI extension.
+
+    We present DNEye, a measurement system built on top of a network of
+    distributed vantage points, which we used to study the accessibility of
+    DoT/DoH and ESNI, and to investigate whether these protocols are tampered
+    with by network providers (e.g., for censorship). Moreover, we evaluate the
+    efficacy of these protocols in circumventing network interference when
+    accessing content blocked by traditional DNS manipulation. We find evidence
+    of blocking efforts against domain name encryption technologies in several
+    countries, including China, Russia, and Saudi Arabia. At the same time, we
+    discover that domain name encryption can help with unblocking more than
+    55\% and 95\% of censored domains in China and other countries where
+    DNS-based filtering is heavily employed.},
+  note = {To appear in \emph{Proceedings of the Passive and Active Measurement
+    Conference 2022}},
+  number = {arXiv:2202.00663 [cs.NI]},
+}
+
+
 @techreport{Sun2022a,
   institution = {Cornell University},
   type = {arXiv preprint},
