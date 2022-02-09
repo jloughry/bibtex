@@ -16,6 +16,57 @@
 
 
 
+@techreport{Wang2022d,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2022,
+  month = {5 February},
+  title = {{GhostTalk}: Interactive Attack on Smartphone Voice System Through
+    Power Line},
+  author = {Wang, Yuanda and Guo,Hanqing and Yan, Qiben},
+  number = {arXiv:2202.02585 [cs.CR]},
+  cites = {See also \cite{Wang2022c} for published version and abstract},
+}
+
+@inproceedings{Wang2022c,
+  booktitle = {Network and Distributed System Security (NDSS) Symposium 2022},
+  title = {{GhostTalk}: Interactive Attack on Smartphone Voice System Through
+    Power Line},
+  month = {24--28 April},
+  year = 2022,
+  address= {San Diego, California},
+  author = {Wang, Yuanda and Guo,Hanqing and Yan, Qiben},
+  abstract = {Inaudible voice command injection is one of the most threatening
+    attacks towards voice assistants. Existing attacks aim at injecting the
+    attack signals over the air, but they require the access to the authorized
+    user's voice for activating the voice assistants. Moreover, the
+    effectiveness of the attacks can be greatly deteriorated in a noisy
+    environment. In this paper, we explore a new type of channel, the power
+    line side-channel, to launch the inaudible voice command injection. By
+    injecting the audio signals over the power line through a modified charging
+    cable, the attack becomes more resilient against various environmental
+    factors and liveness detection models. Meanwhile, the smartphone audio
+    output can be eavesdropped through the modified cable, enabling a
+    highly-interactive attack.
+
+    To exploit the power line side-channel, we present GhostTalk, a new hidden
+    voice attack that is capable of injecting and eavesdropping simultaneously.
+    Via a quick modification of the power bank cables, the attackers could
+    launch interactive attacks by remotely making a phone call or capturing
+    private information from the voice assistants. GhostTalk overcomes the
+    challenge of bypassing the speaker verification system by stealthily
+    triggering a switch component to simulate the press button on the
+    headphone. In case when the smartphones are charged by an unaltered
+    standard cable, we discover that it is possible to recover the audio signal
+    from smartphone loudspeakers by monitoring the charging current on the
+    power line. To demonstrate the feasibility, we design GhostTalk-SC, an
+    adaptive eavesdropper system targeting smartphones charged in the public
+    USB ports. To correctly recognize the private information in the audio,
+    GhostTalk-SC carefully extracts audio spectra and integrates a neural
+    network model to classify spoken digits in the speech.},
+  cites = {See also \cite{Wang2022d}},
+}
+
 @article{Volz2022a,
   year = 2022,
   month = {3 February},
