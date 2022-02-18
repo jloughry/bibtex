@@ -16,6 +16,49 @@
 
 
 
+@techreport{Roitburd2022a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {11 February},
+  year = 2022,
+  title = {Very Pwnable Network: {Cisco AnyConnect} Security Analysis},
+  author = {Roitburd, Gerbert and Ortmannn Matthias and Hollick, Matthias and
+    Classen, Jiska},
+  abstract = {Corporate Virtual Private Networks (VPNs) enable users to work
+    from home or while traveling. At the same time, VPNs are tied to a
+    company's network infrastructure, forcing users to install proprietary
+    clients for network compatibility reasons. VPN clients run with high
+    privileges to encrypt and reroute network traffic. Thus, bugs in VPN
+    clients pose a substantial risk to their users and in turn the corporate
+    network. Cisco, the dominating vendor of enterprise network hardware,
+    offers VPN connectivity with their AnyConnect client for desktop and mobile
+    devices. While past security research primarily focused on the AnyConnect
+    Windows client, we show that Linux and iOS are based on different
+    architectures and have distinct security issues. Our reverse engineering as
+    well as the follow-up design analysis and fuzzing reveal 13 new
+    vulnerabilities. Seven of these are located in the Linux client. The root
+    cause for privilege escalations on Linux is anchored so deep in the
+    client's architecture that it only got patched with a partial workaround. A
+    similar analysis on iOS uncovers three AnyConnect-specific bugs as well as
+    three general issues in iOS network extensions, which apply to all kinds of
+    VPNs and are not restricted to AnyConnect.},
+  number = {arXiv:2202.05573 [cs.CR]},
+  cites = {See also \cite{Roitburd2021a} for the published version},
+}
+
+@inproceedings{Roitburd2021a,
+  year = 2021,
+  title = {Very Pwnable Network: {Cisco AnyConnect} Security Analysis},
+  author = {Roitburd, Gerbert and Ortmannn Matthias and Hollick, Matthias and
+    Classen, Jiska},
+  booktitle = {IEEE Conference on Communications and Network Security
+    ({CNS}) 2021},
+  address = {Tempe, Arizona, USA},
+  doi = {10.1109/CNS53000.2021.9705023},
+  month = {4--6 October},
+  cites = {See also \cite{Roitburd2022a} for abstract and preprint},
+}
+
 @article{Thompson2022a,
   journal = {The Atlantic},
   year = 2022,
