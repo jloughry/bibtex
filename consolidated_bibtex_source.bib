@@ -16,6 +16,66 @@
 
 
 
+@techreport{Hallyburton2022b,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {21 February},
+  year = 2022,
+  cites = {Cited by \cite{Kingery2022a}; see \cite{Hallyburton2022a} for the
+    published version},
+  title = {Security Analysis of Camera--{LiDAR} Fusion Against Black-Box
+    Attacks on Autonomous Vehicles},
+  author = {Hallyburton, R. Spencer and Liu, Yupei and Cao, Yulong
+    and Mao, Z.~Morley and Pajic, Miroslav},
+  abstract = {To enable safe and reliable decision-making, autonomous vehicles
+    (AVs) feed sensor data to perception algorithms to understand the
+    environment. Sensor fusion with multi-frame tracking is becoming
+    increasingly popular for detecting 3D objects. Thus, in this work, we
+    perform an analysis of camera-LiDAR fusion, in the AV context, under LiDAR
+    spoofing attacks. Recently, LiDAR-only perception was shown vulnerable to
+    LiDAR spoofing attacks; however, we demonstrate these attacks are not
+    capable of disrupting camera-LiDAR fusion. We then define a novel,
+    context-aware attack: frustum attack, and show that out of 8 widely used
+    perception algorithms---across 3 architectures of LiDAR-only and 3
+    architectures of camera-LiDAR fusion---all are significantly vulnerable to
+    the frustum attack. In addition, we demonstrate that the frustum attack is
+    stealthy to existing defenses against LiDAR spoofing as it preserves
+    consistencies between camera and LiDAR semantics. Finally, we show that the
+    frustum attack can be exercised consistently over time to form stealthy
+    longitudinal attack sequences, compromising the tracking module and
+    creating adverse outcomes on end-to-end AV control.},
+  number = {arXiv:2106.07098 [cs.CR]},
+  doi = {10.48550/arXiv.2106.07098},
+}
+
+techreport{Kingery2022a,
+  title = {WARNING: Objects in Driverless Car Sensors May Be Closer Than They
+    Appear},
+  month = {14 March},
+  year = 2022,
+  author = {Kingery, Ken},
+  institution = {Duke University},
+  address = {Durham, North Carolina},
+  abstract = {Industry-standard dual-camera LIDAR sensors on self-driving cars
+    can be deceived.},
+  type = {News},
+  cites = {Cites \cite{Hallyburton2022a}; see \cite{Hallyburton2022b} for
+    preprint and abstract},
+}
+
+@inproceedings{Hallyburton2022a,
+  cites = {Cited by \cite{Kingery2022a} see \cite{Hallyburton2022b} for
+    preprint and abstract},
+  title = {Security Analysis of Camera--{LiDAR} Fusion Against Black-Box
+    Attacks on Autonomous Vehicles},
+  author = {Hallyburton, R. Spencer and Liu, Yupei and Cao, Yulong
+    and Mao, Z.~Morley and Pajic, Miroslav},
+  booktitle = {31st {USENIX} Security Symposium},
+  month = {10--12 August},
+  year = 2022,
+  address = {Boston, Massachusetts},
+}
+
 @article{Goodin2022c,
   year = 2022,
   month = {14 March},
