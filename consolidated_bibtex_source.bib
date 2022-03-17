@@ -14,7 +14,41 @@
 % TODO: begin entering author names here as Last, First instead.
 %
 
+@techreport{Zhang2022a,
+  year = 2022,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {14 March},
+  title = {Detection of Electromagnetic Signal Injection Attacks on Actuator
+    Systems},
+  author = {Zhang, Youqian and Rasmussen, Kasper},
+  abstract = {An actuator is a device that converts electricity into another
+    form of energy, typically physical movement. They are absolutely essential
+    for any system that needs to impact or modify the physical world, and are
+    used in millions of systems of all sizes, all over the world, from cars and
+    spacecraft to factory control systems and critical infrastructure. An
+    actuator is a ``dumb device'' that is entirely controlled by the
+    surrounding electronics, e.g., a microcontroller, and thus cannot
+    authenticate its control signals or do any other form of processing. The
+    problem we look at in this paper is how the wires that connect an actuator
+    to its control electronics can act like antennas, picking up
+    electromagnetic signals from the environment. This makes it possible for a
+    remote attacker to wirelessly inject signals (energy) into these wires to
+    bypass the controller and directly control the actuator.
 
+    To detect such attacks, we propose a novel detection method that allows the
+    microcontroller to monitor the control signal and detect attacks as a
+    deviation from the intended value. We have managed to do this without
+    requiring the microcontroller to sample the signal at a high rate or run
+    any signal processing. That makes our defense mechanism practical and easy
+    to integrate into existing systems. Our method is general and applies to
+    any type of actuator (provided a few basic assumptions are met), and can
+    deal with adversaries with arbitrarily high transmission power. We
+    implement our detection method on two different practical systems to show
+    its generality, effectiveness, and robustness.},
+  number = {arXiv:2203.07102 [cs.CR]},
+  doi = {10.48550/arXiv.2203.07102},
+}
 
 @techreport{Yu2022a,
   year = 2022,
