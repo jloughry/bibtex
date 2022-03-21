@@ -16,6 +16,38 @@
 
 
 
+@article{Toulas2022a,
+  title = {{Unix} Rootkit Used to Steal {ATM} Banking Data},
+  journal = {Bleeping Computer},
+  author = {Toulas, Bill},
+  year = 2022,
+  month = {17 March},
+  note = {\url{https://www.bleepingcomputer.com/news/security/new-unix-rootkit-used-to-steal-atm-banking-data/}},
+  cites = {Cited ny \cite{ACM2022h}},
+}
+
+@article{ACM2022h,
+  author = {{ACM Tech News}},
+  title = {{Unix} Rootkit Used to Steal {ATM} Banking Data},
+  journal = {ACM Tech News},
+  month = {21 March},
+  year = 2022,
+  abstract = {Researchers at the cybersecurity firm Mandiant found that the
+    LightBasin hacking group is using a previously unknown Unix rootkit to
+    steal ATM banking data and make unauthorized cash withdrawals from ATM
+    terminals at several banks. The rootkit, a Unix kernel module called
+    "Caketap," affects servers running the Oracle Solaris operating system,
+    hiding network connections, processes, and files while installing several
+    hooks into system functions to receive remote commands and configurations.
+    Caketap intercepts messages sent to the Payment Hardware Security Module
+    (HSM), used by the banking industry to verify bank card information, to
+    stop verification messages that match fraudulent bank cards and instead
+    generate a valid response. It also internally saves valid messages that
+    match non-fraudulent primary account numbers and sends them to the HSM to
+    avoid impacting routine customer transactions and implant operations.},
+  cites = {Cites \cite{Toulas2022a}},
+}
+
 @article{Leibson2022a,
   month = {7 March},
   year = 2022,
