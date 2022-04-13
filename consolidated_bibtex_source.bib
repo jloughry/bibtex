@@ -16,6 +16,40 @@
 
 
 
+@techreport{Daley2022a,
+  title = {You're muted---or are you? {Videoconferencing} apps may listen even
+    when mic is off},
+  month = {11 April},
+  year = 2022,
+  author = {Daley, Jason},
+  institution = {University of Wisconsin---Madison},
+  type = {News},
+  note = {\url{https://news.wisc.edu/youre-muted-or-are-you-videoconferencing-apps-may-listen-even-when-mic-is-off/}},
+  cites = {Cited by \cite{ACM2022j}},
+}
+
+@article{ACM2022j,
+  cites = {Cites \cite{Daley2022a}},
+  author = {{ACM Tech News}},
+  journal = {{ACM Tech News}},
+  month = {13 April},
+  year = 2022,
+  title = {Videoconferencing Apps May Listen Even When Mic is Off},
+  abstract = {The University of Wisconsin-Madison's Kassem Fawaz and Yucheng
+    Yang found many videoconferencing applications continue to listen when the
+    microphone is supposedly muted. The researchers tested those apps on a
+    variety of operating systems and learned that, for the most part, "when you
+    mute yourself, these apps do not give up access to the microphone," said
+    Fawaz. Along with Yang and colleagues at Loyola University Chicago, Fawaz
+    traced raw audio in popular videoconferencing apps, and found they all
+    occasionally collect data while muted; one app even continued to compile
+    and deliver data to its server at the same rate, despite muting the
+    microphone. The researchers trained an activity classifier using audio from
+    YouTube videos representing six common background activities to identify
+    background activity from the muted videoconferencing app's telemetry; it
+    scored 82\% accuracy on average.},
+}
+
 @article{Haidt2022a,
   author = {Haidt, Jonathan},
   title = {Why the past 10 years of {American} life have been uniquely stupid},
