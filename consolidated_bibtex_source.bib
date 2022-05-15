@@ -16,6 +16,33 @@
 
 
 
+@techreport{Stangherlin2022a,
+  year = 2022,
+  month = {10 May},
+  type = {arXiv preprint},
+  institution = {Cornell University},
+  title = {Design and Implementation of a Secure {RISC-V} Microprocessor},
+  author = {Stangherlin, Kleber and Sachdev, Manoj},
+  abstract = {Secret keys can be extracted from the power consumption or
+    electromagnetic emanations of unprotected devices. Traditional
+    counter-measures have limited scope of protection, and impose several
+    restrictions on how sensitive data must be manipulated. We demonstrate a
+    bit-serial RISC-V microprocessor implementation with no plain-text data.
+    All values are protected using Boolean masking. Software can run with
+    little to no counter-measures, reducing code size and performance
+    overheads. Unlike previous literature, our methodology is fully automated
+    and can be applied to designs of arbitrary size or complexity. We also
+    provide details on other key components such as clock randomizer, memory
+    protection, and random number generator. The microprocessor was implemented
+    in 65 nm CMOS technology. Its implementation was evaluated using NIST tests
+    as well as side channel attacks. Random numbers generated with our RNG pass
+    on all NIST tests. Side-channel analysis on the baseline implementation
+    extracted the AES key using only 375 traces, while our secure
+    microprocessor was able to withstand attacks using 20 M traces.},
+  number = {arXiv:2205.05095 [cs.CR]},
+  doi = {10.48550/arXiv.2205.05095},
+}
+
 @inproceedings{Classen2022b,
   year = 2022,
   month = {16--19 May},
