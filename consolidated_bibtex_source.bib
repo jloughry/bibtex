@@ -16,6 +16,54 @@
 
 
 
+@inproceedings{Wagner2022d,
+  title = {Take a Bite of the Reality Sandwich: Revisiting the Security of
+    Progressive Message Authentication Codes},
+  author = {Wagner, Eric and Bauer, Jan and Henze, Martin},
+  doi = {10.1145/3507657.3528539},
+  booktitle = {15th {ACM} Conference on Security and Privacy in Wireless and
+    Mobile Networks ({ACM WiSec'22})},
+  address = {San Antonio, Texas, USA},
+  month = {16--19 May},
+  year = 2022,
+  cites = {See also \cite{Wagner2022c} for preprint and abstract},
+}
+
+@techreport{Wagner2022c,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {19 May},
+  year = 2022,
+  title = {Take a Bite of the Reality Sandwich: Revisiting the Security of
+    Progressive Message Authentication Codes},
+  author = {Wagner, Eric and Bauer, Jan and Henze, Martin},
+  abstract = {Message authentication guarantees the integrity of messages
+    exchanged over untrusted channels. However, to achieve this goal, message
+    authentication considerably expands packet sizes, which is especially
+    problematic in constrained wireless environments. To address this issue,
+    progressive message authentication provides initially reduced integrity
+    protection that is often sufficient to process messages upon reception.
+    This reduced security is then successively improved with subsequent
+    messages to uphold the strong guarantees of traditional integrity
+    protection. However, contrary to previous claims, we show in this paper
+    that existing progressive message authentication schemes are highly
+    susceptible to packet loss induced by poor channel conditions or jamming
+    attacks. Thus, we consider it imperative to rethink how authentication tags
+    depend on the successful reception of surrounding packets. To this end, we
+    propose R2-D2, which uses randomized dependencies with parameterized
+    security guarantees to increase the resilience of progressive
+    authentication against packet loss. To deploy our approach to
+    resource-constrained devices, we introduce SP-MAC, which implements R2-D2
+    using efficient XOR operations. Our evaluation shows that SP-MAC is
+    resilient to sophisticated network-level attacks and operates as
+    resources-conscious and fast as existing, yet insecure, progressive message
+    authentication schemes.},
+  note = {ACM WiSec'22},
+  cites = {See also \cite{Wagner2022d} for the published version},
+  number = {arXiv:2103.08560 [cs.CR]},
+  doi = {10.48550/arXiv.2103.08560},
+}
+
 @article{DeLuce2022a,
   year = 2022,
   month = {21 May},
