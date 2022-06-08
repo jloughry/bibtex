@@ -16,6 +16,60 @@
 
 
 
+@inproceedings{Staat2022b,
+  author = {Staat, Paul and Tobisch, Johannes and Zenger, Christian
+    and Paar, Christof},
+  title = {Anti-tamper radio: System-level tamper detection for computing
+    systems},
+  booktitle = {{IEEE} Symposium on Security and Privacy},
+  address = {San Francisco, California, USA},
+  year = 2022,
+  doi = {10.1109/SP46214.2022.00067},
+  month = {22--26 May},
+  pages = {1150--1164},
+  cites = {Cited by \cite{Weiler2022a}; see also \cite{ACM2022o}},
+  abstract = {A whole range of attacks becomes possible when adversaries gain
+    physical access to computing systems that process or contain sensitive
+    data. Examples include side-channel analysis, bus probing, device cloning,
+    or implanting hardware Trojans. Defending against these kinds of attacks is
+    considered a challenging endeavor, requiring anti-tamper solutions to
+    monitor the physical environment of the system. Current solutions range
+    from simple switches, which detect if a case is opened, to meshes of
+    conducting material that provide more fine-grained detection of integrity
+    violations. However, these solutions suffer from an intricate trade-off
+    between physical security on the one side and reliability, cost, and
+    difficulty to manufacture on the other. In this work, we demonstrate that
+    radio wave propagation in an enclosed system of complex geometry is
+    sensitive against adversarial physical manipulation. We present an
+    anti-tamper radio (ATR) solution as a method for tamper detection, which
+    combines high detection sensitivity and reliability with ease-of-use. ATR
+    constantly monitors the wireless signal propagation behavior within the
+    boundaries of a metal case. Tamper attempts such as insertion of foreign
+    objects, will alter the observed radio signal response, subsequently
+    raising an alarm. The ATR principle is applicable in many computing systems
+    that require physical security such as servers, ATMs, and smart meters. As
+    a case study, we use $19''$ servers and thoroughly investigate capabilities
+    and limits of the ATR. Using a custom-built automated probing station, we
+    simulate probing attacks by inserting needles with high precision into
+    protected environments. Our experimental results show that our ATR
+    implementation can detect 16 mm insertions of needles of diameter as low as
+    0.1 mm under ideal conditions. In the more realistic environment of a
+    running $19''$ server, we demonstrate reliable detection of 40 mm
+    insertions of needles of diameter 1 mm for a period of 10 days.},
+}
+
+@techreport{Weiler2022a,
+  title = {Radio waves for the detection of hardware tampering},
+  month = {7 June},
+  year = 2022,
+  cites = {Cites \cite{Staat2022b}; cited by \cite{ACM2022o}},
+  note = {\url{https://news.rub.de/english/press-releases/2022-06-07-it-security-radio-waves-detection-hardware-tampering}},
+  author = {Weiler, Julia},
+  institution = {Ruhr-Universit\"{a}t Bochum},
+  address = {Germany},
+  type = {Press release},
+}
+
 @article{ACM2022o,
   title = {Radio Waves for the Detection of Hardware Tampering},
   journal = {{ACM Tech News}},
@@ -33,7 +87,8 @@
     disrupt. RUB's Johannes Tobisch said the antennas should be placed ``as
     close as possible to the components that require a high degree of
     protection,'' because the source of tampering is easier to identify when it
-    is closer to the receiving antenna.}
+    is closer to the receiving antenna.},
+  cites = {Cites \cite{Weiler2022a}},
 }
 
 @techreport{Bland2022a,
