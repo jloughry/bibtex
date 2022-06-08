@@ -16,6 +16,42 @@
 
 
 
+@techreport{Shahriar2022a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2022,
+  month = {5 June},
+  title = {{CANShield}: Signal-based Intrusion Detection for {Controller Area
+    Networks}},
+  author = {Shahriar, Md Hasan and Xiao, Yang and Moriano, Pablo
+    and Lou, Wenjing and Hou, Y.~Thomas},
+  abstract = {Modern vehicles rely on a fleet of electronic control units
+    (ECUs) connected through controller area network (CAN) buses for critical
+    vehicular control. However, with the expansion of advanced connectivity
+    features in automobiles and the elevated risks of internal system exposure,
+    the CAN bus is increasingly prone to intrusions and injection attacks. The
+    ordinary injection attacks disrupt the typical timing properties of the CAN
+    data stream, and the rule-based intrusion detection systems (IDS) can
+    easily detect them. However, advanced attackers can inject false data to
+    the time series sensory data (signal), while looking innocuous by the
+    pattern/frequency of the CAN messages. Such attacks can bypass the
+    rule-based IDS or any anomaly-based IDS built on binary payload data. To
+    make the vehicles robust against such intelligent attacks, we propose
+    CANShield, a signal-based intrusion detection framework for the CAN bus.
+    CANShield consists of three modules: a data preprocessing module that
+    handles the high-dimensional CAN data stream at the signal level and makes
+    them suitable for a deep learning model; a data analyzer module consisting
+    of multiple deep autoencoder (AE) networks, each analyzing the time-series
+    data from a different temporal perspective; and finally an attack detection
+    module that uses an ensemble method to make the final decision. Evaluation
+    results on two high-fidelity signal-based CAN attack datasets show the high
+    accuracy and responsiveness of CANShield in detecting wide-range of
+    advanced intrusion attacks.},
+  note = {A version of this paper is accepted by escar USA 2022},
+  number = {arXiv:2205.01306 [cs.CR]},
+  doi = {10.48550/arXiv.2205.01306},
+}
+
 @incollection{Taras2009a,
   booktitle = {Universal Access in {HCI, Part I, HCII 2009}},
   series = {LNCS 5614},
