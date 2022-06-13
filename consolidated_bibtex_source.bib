@@ -16,6 +16,33 @@
 
 
 
+@techreport{Elmahdy2022a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2022,
+  month = {9 June},
+  title = {Privacy Leakage in Text Classification: A Data Extraction Approach},
+  author = {Elmahdy, Adel and Inan, Huseyin A. and Sim, Robert},
+  note = {Accepted at NAACL 2022 Workshop on Privacy in NLP (PrivateNLP)},
+  abstract = {Recent work has demonstrated the successful extraction of
+    training data from generative language models. However, it is not evident
+    whether such extraction is feasible in text classification models since the
+    training objective is to predict the class label as opposed to next-word
+    prediction. This poses an interesting challenge and raises an important
+    question regarding the privacy of training data in text classification
+    settings. Therefore, we study the potential privacy leakage in the text
+    classification domain by investigating the problem of unintended
+    memorization of training data that is not pertinent to the learning task.
+    We propose an algorithm to extract missing tokens of a partial text by
+    exploiting the likelihood of the class label provided by the model. We test
+    the effectiveness of our algorithm by inserting canaries into the training
+    set and attempting to extract tokens in these canaries post-training. In
+    our experiments, we demonstrate that successful extraction is possible to
+    some extent. This can also be used as an auditing strategy to assess any
+    potential unauthorized use of personal data without consent.},
+  number = {arXiv:2206.04591 [cs.CL]},
+}
+
 @article{Dembicki2022a,
   title = {Warned of `massive' climate-led extinction, a {US} energy firm
     funded crisis denial ads},
