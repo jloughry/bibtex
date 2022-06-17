@@ -16,6 +16,78 @@
 
 
 
+@article{ACM2022q,
+  author = {{ACM Tech News}},
+  journal = {{ACM Tech News}},
+  title = {{Intel} and {AMD Hertzbleed CPU} Vulnerability Uses Boost Speed to
+    Steal Crypto Keys},
+  year = 2022,
+  month = {17 June},
+  cites = {Cites \cite{Alcorn2022a}},
+  abstract = {Researchers from Intel, the University of Texas at Austin, the
+      University of Illinois at Urbana-Champaign, and the University of
+      Washington have identified the ``Hertzbleed'' bug, which affects Intel
+      and AMD central processing units (CPUs), among others. The flaw
+      facilitates side-channel attacks that can compromise AES cryptographic
+      keys by measuring the CPU's boost frequency/power. Attackers monitor the
+      power signature of any given cryptographic workload, which varies due to
+      the CPU's dynamic boost clock frequency adjustments, and can render that
+      information as power data in order to steal the keys. Although Hertzbleed
+      has only been demonstrated in Intel and AMD silicon, it could
+      theoretically affect virtually all modern CPUs because it works by
+      observing the power algorithms underlying the Dynamic Voltage Frequency
+      Scaling method common to today's processors. Intel's remedy includes
+      patches for any code that is vulnerable to enabling a power side-channel
+      attack, but some countermeasures can impact performance.},
+}
+
+@article{Alcorn2022a,
+  year = 2022,
+  month = {14 June},
+  title = {{Intel} and {AMD Hertzbleed CPU} Vulnerability Uses Boost Speed to
+    Steal Crypto Keys},
+  author = {Alcorn, Paul},
+  journal = {Tom's Hardware},
+  abstract = {Boost frequencies reveal timings, and thus secret keys},
+  note = {\url{https://www.tomshardware.com/news/intel-amd-hertzbleed-cpu-vulnerability-boost-clock-speed-steal-crypto-keys}},
+  cites = {Cited by \cite{ACM2022q}; cites \cite{Wang2022g}},
+}
+
+@inproceedings{Wang2022g,
+  year = 2022,
+  booktitle = {31st {USENIX} Security Symposium},
+  address = {Boston},
+  month = {10--12 August},
+  title = {{Hertzbleed}: Turning Power Side-Channel Attacks Into Remote Timing
+    Attacks on {x86}},
+  cites = {Cited by \cite{Alcorn2022a}},
+  author = {Wang, Yingchen and Paccagnella, Riccardo and Tang He, Elizabeth
+    and Shacham, Hovav and Fletcher, Christopher W. and Kohlbrenner, David},
+  abstract = {Power side-channel attacks exploit data-dependent variations in
+    a CPU's power consumption to leak secrets. In this paper, we show that on
+    modern Intel (and AMD) x86 CPUs, power side-channel attacks can be turned
+    into timing attacks that can be mounted without access to any power
+    measurement interface. Our discovery is enabled by dynamic voltage and
+    frequency scaling (DVFS). We find that, under certain circumstances,
+    DVFS-induced variations in CPU frequency depend on the current power
+    consumption (and hence, data) at the granularity of milliseconds. Making
+    matters worse, these variations can be observed by a remote attacker, since
+    frequency differences translate to wall time differences!
+
+    The frequency side channel is theoretically more powerful than the software
+    side channels considered in cryptographic engineering practice today, but
+    it is difficult to exploit because it has a coarse granularity. Yet, we
+    show that this new channel is a real threat to the security of
+    cryptographic software. First, we reverse engineer the dependency between
+    data, power, and frequency on a modern x86 CPU---finding, among other things,
+    that differences as seemingly minute as a set bit's position in a word can
+    be distinguished through frequency changes. Second, we describe a novel
+    chosen-ciphertext attack against (constant-time implementations of) SIKE,
+    a post-quantum key encapsulation mechanism, that amplifies a single
+    key-bit guess into many thousands of high- or low-power operations,
+    allowing full key extraction via remote timing.},
+}
+
 @article{Shivaram2022a,
   title = {Who is {John Eastman}, the {T}rump lawyer at the center of the
     {Jan.\ 6} investigation?},
