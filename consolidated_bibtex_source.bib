@@ -16,6 +16,39 @@
 
 
 
+@techreport{Trautmann2022a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  year = 2022,
+  month = {21 June},
+  title = {Real-Time Waveform Matching with a Digitizer at {10 GS/s}},
+  author = {Trautmann, Jens and Patsiatzis, Nikolaos and Becher, Andreas
+    and Teich, J\"{u}rgen and Wildermann, Stefan},
+  abstract = {Side-Channel Analysis (SCA) requires the detection of the
+    specific time frame Cryptographic Operations (COs) takeplace in the
+    side-channel signal. In laboratory conditions with full control over the
+    Device under Test (DuT), dedicated trigger signals can be implemented to
+    indicate the start and end of COs. For real-world scenarios,
+    waveform-matching techniques have been established which compare the
+    side-channel signal with a template of the CO's pattern in real time to
+    detect the CO in the side channel. State-of-the-art approaches are
+    implemented on Field-Programmable Gate Arrays (FPGAs). However, current
+    waveform-matching designs are processing the samples from Analog-to-Digital
+    Converters (ADCs) sequentially and can only work with low sampling rates
+    due to the limited clock speed of FPGAs. This makes it increasingly
+    difficult to apply existing techniques on modern DuTs that are operating
+    with clock speeds in the GHz range. In this paper, we present a parallel
+    waveform-matching architecture that is capable of performing waveform
+    matching at the speed of fast ADCs. We implement the proposed architecture
+    in a high-end FPGA-based digitizer and apply it to detect AES COs from the
+    side channel of a single-board computer operating at 1 GHz. Our
+    implementation allows for waveform matching at 10 GS/s with high accuracy,
+    thus offering a speedup of 50x compared to the fastest state-of-the-art
+    implementation known to us.},
+  number = {arXiv:2206.10368 [cs.CR]},
+  doi = {10.48550/arXiv.2206.10368},
+}
+
 @techreport{Sliwinski2022a,
   institution = {Cornell University},
   type = {arXiv preprint},
