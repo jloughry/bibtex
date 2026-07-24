@@ -16,6 +16,58 @@
 
 
 
+@techreport{Aadit2026a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {24 June},
+  year = 2026,
+  title = {Programmable Probabilistic Computer with 1,000,000 p-bits},
+  author = {Aadit, Navid Anjum and Zhang, Xiuqi and Chowdhury, Shuvro
+    and Callahan-Coray, Kevin and Lee, Kyle and Bunaiyan, Saleh
+    and Seshan, Sanjay and Thomas, Clayton and Twigg, Jason
+    and Seawright, Andrew and Brewer, Forrest and Srimani, Tathagata
+    and Camsari, Kerem Y.},
+  abstract = {Probabilistic computers built from p-bits have been proposed as
+    hardware accelerators for sampling and optimizing Ising models, but
+    existing systems have been confined to a single chip, capped by its
+    capacity and memory bandwidth. Here we break this limit by networking FPGAs
+    into a single Ising machine far larger than any one device could hold,
+    realizing a programmable probabilistic computer with one million p-bits.
+    The machine performs Gibbs sampling at over a trillion flips per second
+    while keeping every coupling weight in local on-chip memory. During
+    execution, devices exchange nothing but 1-bit boundary states. This
+    architecture exposes a question fundamental to any distributed sampler: how
+    frequently boundary information must be refreshed for a partitioned machine
+    to behave as an unpartitioned one. Using three-dimensional Edwards-Anderson
+    spin glasses, we show that the answer is set by a single timing ratio,
+    $\eta = f_\text{comm}/f_\text{p-bit}$, of the boundary-exchange frequency
+    to the local p-bit update frequency. Above a topology-dependent threshold,
+    the distributed machine matches a monolithic GPU reference. Below it,
+    residual energy still decays as a power law but with a reduced exponent,
+    turning parallelism into a quantifiable throughput-accuracy tradeoff. A
+    theoretical cluster mean-field model reproduces the same behavior, showing
+    that this tradeoff is a universal property of partitioned stochastic
+    dynamics. These results provide a programmable million-p-bit platform,
+    demonstrated across spin glasses, Max-Cut, and Boolean satisfiability,
+    together with a quantitative design rule for scaling probabilistic
+    computers beyond the single-chip limit.},
+  number = {arXiv:2606.25313 [cs.DC]},
+  doi = {\url{https://doi.org/10.48550/arXiv.2606.25313}},
+  cites = {Cited by \cite{Choi2026b}},
+}
+
+@article{Choi2026b,
+  author = {Choi, Charles Q.},
+  journal = {IEEE Spectrum},
+  year = 2026,
+  month = {18 July},
+  title = {Largest Probabilistic Computer Hits 1 Million P-Bits},
+  abstract = {New machine may solve optimization problems that are too hard for
+    regular computers},
+  note = {\url{https://spectrum.ieee.org/biggest-probabilistic-computer}},
+  cites = {Cites \cite{Aadit2026a}},
+}
+
 @misc{Hoff2026b,
   year = 2026,
   month = {July},
