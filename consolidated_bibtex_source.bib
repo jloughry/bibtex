@@ -16,6 +16,84 @@
 
 
 
+@techreport{Takashita2026b,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {16 September},
+  year = 2026,
+  title = {Reaching Every Position Without Searching: Rotating Sparse Wiring on
+    the Hypercube as a Substitute for Attention},
+  author = {Takashita, Yoshiaki},
+  abstract = {Attention pays, at every layer and for every input, the cost of
+    searching for whom to connect. We ask how far one can get with wiring that
+    is fixed, sparse, and simply rotated from layer to layer. Treating the $n$
+    positions of a sequence as the vertices of a $\log_2n$-dimensional
+    hypercube and connecting each position, at layer $\el$, to its neighbour
+    along dimension $\el\mod\log_2n$, information from every position reaches
+    every other in $\log_2n$ layers with $2n$ links per layer instead of $n^2$.
+    On a synthetic task that is unsolvable unless all positions are reached,
+    this rotation matches all-to-all wiring at $1/32$ of the links, while the
+    same sparse pattern held fixed across layers fails; what matters is that
+    every dimension is touched, not the order. On character-level language
+    modelling of a public corpus (the first $12$M characters of enwik8), a
+    hybrid that keeps two attention layers among sixteen sparse ones reaches
+    $0.06$ bits-per-character lower held-out loss than a fully attentive model
+    of the same width at the same step budget (three seeds each, no overlap),
+    with $1/7$ of the links, 42\% fewer parameters, and $2.4\times$ less
+    wall-clock time; the purely rotated schedule is level with the hybrid. The
+    same ordering holds on a second corpus of mixed Japanese, English and code,
+    where the gap widens to $0.16$. The usable learning-rate window is four to
+    eight times wider than attention's on both. We also report what did not
+    work---learned coordinates, and a ``dynamics'' variant whose apparent gains
+    turned out to be an artefact of a saturated kernel---and the measurement
+    discipline (frozen corpus, full-coverage evaluation, seed spread as the bar
+    for ranking) that we found necessary to say anything at all at this
+    scale.},
+  number = {arXiv:2609.18145 [cs.LG]},
+  doi = {\url{https://doi.org/10.48550/arXiv.2609.18145}},
+  cites = {See also \cite{Takashita2026a}},
+}
+
+@techreport{Takashita2026a,
+  institution = {Cornell University},
+  type = {arXiv preprint},
+  month = {17 September},
+  year = 2026,
+  title = {Reachability, Not Observation: Containing Systems Whose Wiring
+    Changes},
+  author = {Takashita, Yoshiaki},
+  abstract = {Containment decisions---where to put a firewall, which links to
+    monitor, what a program may reach---are computed from an observed
+    structure, and observation is a snapshot. We ask what a snapshot misses
+    when the wiring changes over time. On a hypercube whose active dimension
+    rotates, a balanced split shows zero crossing edges at 93\% of instants,
+    yet 8,192 edges must be blocked permanently; adding one always-on ring, a
+    defender sees 2 where 8,194 must be blocked, a factor of 4,097. A
+    time-aware defender holds 585 blocks on average, but one step of clock lag
+    drops its containment to 0\%. On the real Internet the same gap is only
+    x1.8-2.0 (1997-2000) and x1.5-1.6 (2024-2026) once growth is removed, so
+    the blind spot is introduced by design, not inherited from the world -- and
+    it has been designed: the round-robin schedules of optical datacentre
+    fabrics have a gap equal to their period. A declared capability map,
+    checked by static reachability over a real application's call graph,
+    catches all 8 planted holes; the string deny-list previously in place
+    catches 2. One calculation generates every number from one parameter, the
+    period, and reads three boundaries not usually called schedules: frequency
+    hopping, whose standard results are these closed forms with channels in
+    place of edges; the air gap, whose always-on crossing set is empty and
+    whose known breach came at the one phase a snapshot misses; and the tool
+    surface of a coding agent, inventoried from the inside. Turning the cuts on
+    that agent: idle, its instantaneous state cut is zero, while 6 channels
+    carry it across a context reset, none of them the network, so severing the
+    network removes 0. The channel that spawns copies is a branching process
+    with a sharp threshold at approval rate 1/b, below which denial is
+    unnecessary and above which denial is insufficient. Contain by the paths
+    that exist, not by the behaviour that was seen.},
+  cites = {See also \cite{Takashita2026b}},
+  number = {arXiv:2609.19720 [cs.CR]},
+  doi = {\url{https://doi.org/10.48550/arXiv.2609.19720}},
+}
+
 @article{Blehar2026a,
   title = {A Scorned {T}rump Gathers Bulldozers for the {Kennedy Center}},
   author = {Blehar, Jeffrey},
