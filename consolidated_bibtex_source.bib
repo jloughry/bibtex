@@ -16,6 +16,49 @@
 
 
 
+@article{AlJamal2026a,
+  title = {{OptiLeak-Guard:} Vision-Driven Detection and Adaptive Suppression
+    of {LED}-Based Optical Covert Channels in Air-Gapped Edge Systems},
+  month = {June},
+  year = 2026,
+  journal = {Journal of Computing \& Biomedical Informatics},
+  volume = 11,
+  number = {01},
+  author = {AlJamal, Mahmoud and Alkhatib, Ahmad and Anakrh, Mohammad
+   and Alsarhan, Ayoub and Al Nuaim, Ahmed and Al Nuaim, Abdullah
+   and Almusallam, Naif and Alnaeem, Mohammed},
+  cites = {Cites \cite{Loughry2002a,Loughry2019}},
+  doi = {\url{https://doi.org/10.56979/1101/2026/1464}},
+  abstract = {Air-gapped edge systems retain visible status indicators that can
+    be manipulated into optical covert channels and observed by cameras or
+    optical sensors. Existing work establishes the feasibility of LED-mediated
+    exfiltration, yet it largely treats the light trace as a communication
+    signal and leaves a practical defensive question unresolved: how can a
+    defender distinguish ordinary device activity from information-bearing
+    modulation and suppress leakage without modifying the protected endpoint?
+    This paper presents OptiLeak-Guard, a vision-driven defense that combines a
+    Temporal Vision Transformer branch with a physical LED-dynamics branch,
+    gated evidence fusion, three-window decision persistence, and an external
+    Temporal Optical Shield response. The evaluation follows the publicly
+    released QR-Code Optical Covert Channel Benchmark and extends it with a
+    physics-constrained LED scenario that represents native device activity and
+    covert modulation through temporal, spectral, photometric, rise--decay,
+    run-length, chromatic, distance, compression, and signal-to-noise
+    characteristics. The evaluation corpus contains 3,360 analytical video
+    windows balanced between native operational activity and covert modulation
+    patterns. Under the defined configuration, OptiLeak-Guard attains 97.42\%
+    accuracy, 97.58\% precision, 97.31\% recall, 97.44\% F1-score, 0.992 AUC,
+    0.91\% false-positive rate, and 18.6 ms decision latency. Removing the
+    physical branch reduces accuracy by 2.06 percentage points, whereas
+    removing temporal evidence reduces it by 2.60 percentage points. The
+    contribution is a defensive framework that couples temporal visual evidence
+    with physically constrained LED-emission characteristics and activates
+    bounded optical interference only after persistent high-confidence
+    alerts.},
+
+}
+}
+
 @article{Dorfman2026a,
   author = {Dorfman, Zach},
   journal = {Washington Post},
@@ -151689,7 +151732,8 @@ author = {Ma, Shuming and Wang, Hongyu and Ma, Lingxiao and Wang, Lei
   year = 2019,
   title = {(``{Oops! Had} the silly thing in reverse'')---Optical injection
     attacks in through {LED} status indicators},
-  cites = {See also \cite{Kuhnapfel2021a,Kuhnapfel2021b}},
+  cites = {Cited by \cite{AlJamal2026a}; see also
+    \cite{Kuhnapfel2021a,Kuhnapfel2021b}},
   doi = {10.48550/arXiv.1907.00479},
 }
 
