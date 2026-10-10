@@ -16,6 +16,80 @@
 
 
 
+@article{Schneier2026c,
+  cites = {Cites \cite{Goodin2026c}, citing \cite{UCSD2026a}, citing
+    \cite{Shea2026a}},
+  year = 2026,
+  title = {New Attack Against {RSA}},
+  author = {Schneier, Bruce},
+  journal = {Schneier on Security},
+  note = {\url{https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html}},
+  month = {28 September},
+}
+
+@article{Goodin2026c,
+  cites = {Cited by \cite{Schneier2026c}; cites \cite{UCSD2026a}, citing
+    \cite{Shea2026a}},
+  year = 2026,
+  month = {24 September},
+  title = {There's a new way to break {RSA} that's faster than anything we've
+    seen before},
+  abstract = {Until now, cryptographers thought factoring was the only way to
+    break RSA. Not anymore.},
+  note = {\url{https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/}},
+  journal = {Ars Technica},
+  author = {Goodin, Dan},
+}
+
+@misc{UCSD2026a,
+  cites = {Cites \cite{Shea2026a}; cited by \cite{Goodin2026c}, cited by
+    \cite{Schneier2026c}},
+  title = {{NSNFSSSFSFN}},
+  author = {{ucsd-hacc}},
+  year = 2026,
+  note = {\url{https://github.com/ucsd-hacc/NSNFSSSFSFN}},
+  institution = {University of California San Diego},
+}
+
+@techreport{Shea2026a,
+  cites = {Cited by \cite{UCSD2026a}, cited by \cite{Goodin2026c}, cited by
+    \cite{Schneier2026c}},
+  year = 2026,
+  institution = {IACR},
+  type = {Paper},
+  number = {2026/2131},
+  title = {Forging 1024-bit {RSA} signatures in nearly {SNFS} time},
+  author = {Shea, Laura and Haller, Miro and Suhl, Adam and Heninger, Nadia
+    and Thom\'{e}, Emmanuel},
+  abstract = {The security of RSA is generally understood to be based on the
+    complexity of factoring, and key size parameters are extrapolated from the
+    general number field sieve (GNFS). However, this may not accurately
+    represent RSA security in practical scenarios.
+
+    An under-appreciated 2007 algorithm of Joux, Naccache, and Thom\'{e} allows
+    an attacker to forge RSA signatures after temporary access to a raw RSA
+    signing/decryption oracle in time close to the *special* number field sieve
+    (SNFS) without factoring the key. We implement and run this algorithm for
+    1024-bit RSA. In total, the attack took 1380 CPU core-years over five
+    calendar months, and made $2^{32}$ oracle queries. Most of this time is
+    precomputation; after the precomputation the attacker can forge any
+    signature of choice, offline, in 180 core-years.
+
+    We carried out our attack using a hardware security module (HSM) as the
+    signing oracle, thus demonstrating the ability to impersonate the HSM
+    through black-box API interactions, without exfiltrating the key. Blind RSA
+    schemes also provide such a signing oracle.
+
+    Extrapolating our empirical running times to larger key sizes, we conclude
+    that the concrete security of RSA with a signing oracle should be 15 to 30
+    bits lower than the factoring-based security estimates for the 1024-bit to
+    4096-bit RSA parameters that are common in practice. Even 4096-bit RSA does
+    not appear to meet a 128-bit security level in this attack model. This
+    highlights a gap in current RSA-type security assumptions, and gives
+    classical cryptanalytic evidence in favor of moving away from RSA entirely
+    during the current post-quantum transition.},
+}
+
 @techreport{Noever2026a,
   institution = {Cornell University},
   type = {arXiv preprint},
