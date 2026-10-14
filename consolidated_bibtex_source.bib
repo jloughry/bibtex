@@ -16,6 +16,39 @@
 
 
 
+@article{Minixhofer2026a,
+  journal = {Nature},
+  month = {7 October},
+  year = 2026,
+  title = {Retrofitting language models to operate over bytes},
+  author = {Minixhofer, Benjamin and Murray, Tyler and Limisiewicz, Tomasz
+    and Korhonen, Anna and Zettlemoyer, Luke and Smith, Noah A.
+    and Ponti, Edoardo M. and Soldaini, Luca and Hofmann, Valentin},
+  abstract = {Recent advances in artificial intelligence (AI) have largely been
+    driven by large language models, deep neural networks that operate over
+    discrete units called tokens. To represent text, most large language models
+    use words or word fragments as the tokens, known as subword tokenization1.
+    Subword tokenization obscures fine-grained information, which is
+    problematic, especially for scientific data---such as computer code or
+    biological sequences---where meaning depends on the individual characters
+    or bytes2. Models that instead operate directly on the byte encoding of
+    text avoid these limitations, but until now they have lagged behind
+    subword-based models in performance. Here we introduce a general method for
+    creating byte-level large language models through byteification that
+    approach the capabilities of subword-based systems. We use a two-stage
+    conversion procedure to retrofit existing subword-based models into
+    byte-level models with minimal extra training. The resulting models
+    outperform earlier byte-level approaches and excel on character-level
+    reasoning tasks, achieving practical inference speeds by efficiently
+    processing byte-level information and adaptability by reusing the existing
+    ecosystem around the source large language model. Our results remove a
+    long-standing performance barrier to end-to-end byte-level language
+    modelling, demonstrating that models operating on raw text encodings can
+    scale competitively while offering advantages in domains requiring
+    fine-grained textual understanding.},
+  doi = {\url{https://doi.org/10.1038/s41586-026-11111-4}},
+}
+
 @article{Noah2026a,
   author = {Noah, Timothy},
   journal = {The New Republic},
